@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\Project A\bin\Debug\net8.0\Project A.exe
+D:\Bella_Bootcamp\Project A\bin\Debug\net8.0\Project A.deps.json
+D:\Bella_Bootcamp\Project A\bin\Debug\net8.0\Project A.runtimeconfig.json
+D:\Bella_Bootcamp\Project A\bin\Debug\net8.0\Project A.dll
+D:\Bella_Bootcamp\Project A\bin\Debug\net8.0\Project A.pdb
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\Project A.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\Project A.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\Project A.AssemblyInfo.cs
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\Project A.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\Project A.sourcelink.json
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\Project A.dll
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\refint\Project A.dll
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\Project A.pdb
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\Project A.genruntimeconfig.cache
+D:\Bella_Bootcamp\Project A\obj\Debug\net8.0\ref\Project A.dll
