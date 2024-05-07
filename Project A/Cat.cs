@@ -5,10 +5,33 @@ namespace Kucing
         string color;
         string species;
         int age;
-        public void Eat()
+        string favoriteFood;
+        string catName;
 
+
+        public Cat(string favFood, string catName)
         {
-            Console.WriteLine("cat eat");
+            favoriteFood = favFood;
+            this.catName = catName;
+            // this.favoriteFood=favoriteFood;
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine("This cat " + catName + " eat " + favoriteFood);
+        }
+
+        public void PrintInfo(string nama)
+        {
+            Console.WriteLine(nama);
+            
+
+        }
+        public void PrintInfo(string nama, string ffood)
+        {
+            Console.WriteLine(nama);
+            Console.WriteLine(ffood);
+
         }
 
         int Add()

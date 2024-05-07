@@ -1,0 +1,11 @@
+branch: pakai branch saat fitur blm yakin
+merged: sudah ok
+c#: bahasa pemrograman pakai oop
+sdk: compiler,
+
+public bisa diakses di kelas manapun, 
+private hanya bisa diakses di 1 kelas/kelas tsb, 
+protected diakses kelas itu dan turunannya, 
+internal diaskses masih dalam 1 assembly
+protected interal diakses 1 assembly ATAU kelas turunannya
+
