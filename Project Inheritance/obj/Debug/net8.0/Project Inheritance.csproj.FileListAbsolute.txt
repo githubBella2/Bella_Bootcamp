@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\Project Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\Project Inheritance.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\Project Inheritance.AssemblyInfo.cs
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\Project Inheritance.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\Project Inheritance.sourcelink.json
+D:\Bella_Bootcamp\Project Inheritance\bin\Debug\net8.0\Project Inheritance.exe
+D:\Bella_Bootcamp\Project Inheritance\bin\Debug\net8.0\Project Inheritance.deps.json
+D:\Bella_Bootcamp\Project Inheritance\bin\Debug\net8.0\Project Inheritance.runtimeconfig.json
+D:\Bella_Bootcamp\Project Inheritance\bin\Debug\net8.0\Project Inheritance.dll
+D:\Bella_Bootcamp\Project Inheritance\bin\Debug\net8.0\Project Inheritance.pdb
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\Project Inheritance.dll
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\refint\Project Inheritance.dll
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\Project Inheritance.pdb
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\Project Inheritance.genruntimeconfig.cache
+D:\Bella_Bootcamp\Project Inheritance\obj\Debug\net8.0\ref\Project Inheritance.dll
