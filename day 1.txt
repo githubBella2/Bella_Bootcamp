@@ -9,3 +9,8 @@ protected diakses kelas itu dan turunannya,
 internal diaskses masih dalam 1 assembly
 protected interal diakses 1 assembly ATAU kelas turunannya
 
+Polymor: fokus ke method.
+static:Overriding mengganti di child. Base memanggil parent
+compile time: Overloading (jumlah parameter berbeda/tipe data berbeda jumlah parameter sama)
+-Overloading
+-Overriding

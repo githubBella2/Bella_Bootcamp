@@ -1,4 +1,6 @@
-﻿using Project_Inheritance;
+﻿// See https://aka.ms/new-console-template for more information
+// Console.WriteLine("Hello, World!");
+using Project_B3;
 class Program
 {
     static void Main(string[] args)
@@ -11,6 +13,11 @@ class Program
         int printGajiMmagang = karMagang.Salary(karMagang.gaji, karMagang.banyakJam);
         Console.WriteLine(printGajiMmagang);
         // printgajikaryawanpkl
-        
+
+        // karTetap.DataKaryawan();
+        // karMagang.DataKaryawan();
+
+        ((Karyawan)kar).DataKaryawan();
+
     }
 }

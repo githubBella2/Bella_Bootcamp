@@ -1,0 +1,5 @@
+D:\Bella_Bootcamp\Project A3\obj\Debug\net8.0\Project A3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\Project A3\obj\Debug\net8.0\Project A3.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\Project A3\obj\Debug\net8.0\Project A3.AssemblyInfo.cs
+D:\Bella_Bootcamp\Project A3\obj\Debug\net8.0\Project A3.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\Project A3\obj\Debug\net8.0\Project A3.sourcelink.json
