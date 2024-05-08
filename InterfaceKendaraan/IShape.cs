@@ -1,4 +1,0 @@
-interface IShape
-{
-    void Bergerak();
-}

@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\StaticDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\StaticDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\StaticDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\StaticDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\StaticDemo.sourcelink.json
+D:\Bella_Bootcamp\StaticDemo\bin\Debug\net8.0\StaticDemo.exe
+D:\Bella_Bootcamp\StaticDemo\bin\Debug\net8.0\StaticDemo.deps.json
+D:\Bella_Bootcamp\StaticDemo\bin\Debug\net8.0\StaticDemo.runtimeconfig.json
+D:\Bella_Bootcamp\StaticDemo\bin\Debug\net8.0\StaticDemo.dll
+D:\Bella_Bootcamp\StaticDemo\bin\Debug\net8.0\StaticDemo.pdb
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\StaticDemo.dll
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\refint\StaticDemo.dll
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\StaticDemo.pdb
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\StaticDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\StaticDemo\obj\Debug\net8.0\ref\StaticDemo.dll

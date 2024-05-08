@@ -42,7 +42,13 @@ Saat copy :
 -stack -> yang di-copy valuenya. jadi dibuat alamat berbeda
 -heap -> yang di-copy alamatnya. jadi alamatnya sama
 
-(Tipe data dibagi mjd 2)
+
+Mengapa string reference? karena string immutable(tdk bisa diedit).Jika diubah prosesnya adalah buat baru.
+Heap lebih besar alokasinya.
+-Fitur string builder: Untuk mengubah string (tetap alamatnya)
+(Tipe data dibagi mjd 2).
+
+
 
 Best practice :
 Se-explicit mungkin untuk readability (mudah dibaca diri sendiri dan orang lain)

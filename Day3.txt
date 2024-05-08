@@ -1,0 +1,40 @@
+Polymor: fokus ke method.
+static:Overriding mengganti di child. Base memanggil parent
+compile time: Overloading (jumlah parameter berbeda/tipe data berbeda jumlah parameter sama)
+-Overloading
+-Overriding
+
+Method hiding: jika membuat method yg nama sama tapi mau ada dua duanya
+
+// Explicit casting (besar ke kecil) double ke int.
+// Implicit casting (kecil ke besar) int ke double.
+
+Encapsulation: melindungi yang authorized, menyembunyikan
+
+Abstraction: abstraksi method, focus ke informasi penting (nama).
+interface: 
+
+kelas turunan harus mengganti method ini -> abstract
+
+
+boxing: membungkus value type ke reference type.
+unboxing: membongkar value dari reference type
+
+int a= 10// value type
+object b//reference
+
+b=a //--> boxing. alokasi value type ke alamat
+
+int c;
+c=(int)b; unboxing. bongkar value dari reference ke type
+
+String ke int
+string NIK="123456"
+int niks= int.Parse(NIK)
+
+
+static: dibuat sekal saat rogram berjalan dan akan terus ada di memori selama di aplikasi berjalan.
+-class: ga bisa dibuat object
+Penggunaan langsung di panggil tanpa pakai new
+Semua variable pakai static
+
