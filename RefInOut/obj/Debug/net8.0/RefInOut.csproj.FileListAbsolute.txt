@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\RefInOut\bin\Debug\net8.0\RefInOut.exe
+D:\Bella_Bootcamp\RefInOut\bin\Debug\net8.0\RefInOut.deps.json
+D:\Bella_Bootcamp\RefInOut\bin\Debug\net8.0\RefInOut.runtimeconfig.json
+D:\Bella_Bootcamp\RefInOut\bin\Debug\net8.0\RefInOut.dll
+D:\Bella_Bootcamp\RefInOut\bin\Debug\net8.0\RefInOut.pdb
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\RefInOut.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\RefInOut.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\RefInOut.AssemblyInfo.cs
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\RefInOut.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\RefInOut.sourcelink.json
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\RefInOut.dll
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\refint\RefInOut.dll
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\RefInOut.pdb
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\RefInOut.genruntimeconfig.cache
+D:\Bella_Bootcamp\RefInOut\obj\Debug\net8.0\ref\RefInOut.dll

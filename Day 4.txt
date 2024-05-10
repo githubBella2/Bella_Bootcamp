@@ -1,0 +1,61 @@
+Generic:
+
+Boxing: membungkus value type mjd tipe obj
+int i = 7
+obj k = i
+
+
+value type disimpan di stack (penyimpanan LIFO) - memory terbatas
+reference type disimpan di heap (penyimpanan acak) - memory dynamic
+
+Saat proses boxing, yang disimpan di heap: value dari i
+		    yang disimpan di stack: alamat ke i
+
+value type akan selalu meng copy
+
+Object: lebih membungkus tipe yang sebenernya. Flexible (bisa bungkus string, int, dll sekaligus)
+Generic:cetakan dari tipe yang akan dibuild/dibuat. Type safe, Memory efficiency
+
+
+Dynamic:
+-type akan ditentukan saat runtime
+-expensive
+-simpan variable yang gatau bentuknya (API EXTERNAL)
+
+Var: 
+-type ditentukan jenisnya saat di assign compiler
+
+
+Generic Constraint: membatasi tipe data/ data type yang akan di assign ke generic
+-class (ref type)
+-struct (value type)
+-interface 
+
+Struct (Value type- int,float,bool): mirip kelas tapi value type. Disimpan di stack. 
+Reference type: disimpan di heap.
+Instatiate: mengalokasikan memori untuk variable tertentu
+
+Stringbuilder: menambah value. 
+
+Extention method pakai this
+
+Ref: mengontrol argument dilewatin ke method, bisa dipakai maupun diubah oleh method.
+referensi variable sebagai parameter jadi bukan hanya nilai tapi variabelnya. bisa return banyak value.
+ref: boleh diapain aja
+in: ambil nilai, ga boleh diubah - performa bacanya cepat (keyword readonly di parameter)
+out: mengeluarkan hasil 
+
+Enum(type)
+-urutan konstanta integer -> tidak bisa diganti smapai akhir program (static)
+-Enumeration: seperti collection, bisa diambil terus menerus secara maju
+-ustom type (user defined): bisa ditaruh di dalam kelas/ duluar kelas
+-Value type
+-Data yang memiliki tipe data integer dan urut
+-selain integer, bisa pakai tipe integral lain dan char
+-Underlying values (Scr implisit ada) -> Enum values, secara default dimulai dari nol dan naik 1
+-Bbisa dipakai menyimpan int yang mengandung kode, missal http request code (404,400)
+-Tidak bisa inheritance karena sifatnya sealed (tertutup)
+-Di design ringan, lebih sering dipakai dengan menggunakan literal dengan angka dengan label yang lebih mudah dibaca
+
+
+

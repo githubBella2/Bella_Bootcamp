@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\Poject A4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\Poject A4.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\Poject A4.AssemblyInfo.cs
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\Poject A4.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\Poject A4.sourcelink.json
+D:\Bella_Bootcamp\Poject A4\bin\Debug\net8.0\Poject A4.exe
+D:\Bella_Bootcamp\Poject A4\bin\Debug\net8.0\Poject A4.deps.json
+D:\Bella_Bootcamp\Poject A4\bin\Debug\net8.0\Poject A4.runtimeconfig.json
+D:\Bella_Bootcamp\Poject A4\bin\Debug\net8.0\Poject A4.dll
+D:\Bella_Bootcamp\Poject A4\bin\Debug\net8.0\Poject A4.pdb
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\Poject A4.dll
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\refint\Poject A4.dll
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\Poject A4.pdb
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\Poject A4.genruntimeconfig.cache
+D:\Bella_Bootcamp\Poject A4\obj\Debug\net8.0\ref\Poject A4.dll

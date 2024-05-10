@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poject A4", "Poject A4\Poject A4.csproj", "{35FB86AD-2A54-474A-B12C-B70B366E0CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefInOut", "RefInOut\RefInOut.csproj", "{E4EACD7D-FE48-4A20-92CF-99FE01BAEE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{6820F478-09EC-4588-84D4-49336C5FBCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Params", "Params\Params.csproj", "{AA240AAB-E1AE-4607-BC92-3D1610831882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35FB86AD-2A54-474A-B12C-B70B366E0CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FB86AD-2A54-474A-B12C-B70B366E0CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FB86AD-2A54-474A-B12C-B70B366E0CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FB86AD-2A54-474A-B12C-B70B366E0CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4EACD7D-FE48-4A20-92CF-99FE01BAEE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EACD7D-FE48-4A20-92CF-99FE01BAEE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EACD7D-FE48-4A20-92CF-99FE01BAEE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EACD7D-FE48-4A20-92CF-99FE01BAEE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6820F478-09EC-4588-84D4-49336C5FBCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6820F478-09EC-4588-84D4-49336C5FBCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6820F478-09EC-4588-84D4-49336C5FBCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6820F478-09EC-4588-84D4-49336C5FBCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA240AAB-E1AE-4607-BC92-3D1610831882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA240AAB-E1AE-4607-BC92-3D1610831882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA240AAB-E1AE-4607-BC92-3D1610831882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA240AAB-E1AE-4607-BC92-3D1610831882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
