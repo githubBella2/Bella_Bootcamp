@@ -57,5 +57,9 @@ Enum(type)
 -Tidak bisa inheritance karena sifatnya sealed (tertutup)
 -Di design ringan, lebih sering dipakai dengan menggunakan literal dengan angka dengan label yang lebih mudah dibaca
 
+Params
+-jumlah argument bisa berubah-ubah, tidak dibatasi. 
+
+Array: Sekumpulan data yang sama
 
 
