@@ -42,6 +42,23 @@ Handler: sesuatu yang akan dilakukan jika sesuatu terjadi
 1 event bisa banyak handler
 1 publisher, bisa banyak subscriber
 
+Kenapa pakai evenet?
+Jika ada kelas lain yang terpengaruh juga oleh suatu perubahan di kelas lain.
+
+TRY STATEMENT AND EXCEPTION
+Error:
+-compile error
+-runtime error (Exception), biar programnya gak langsung berhenti saat ketemu error
+-human error
+
+Exception: try - catch untuk lempar error
+-prosesnya mahal, jangan gunakan sembarangan
+
+FIELD VS PROPERTIES
+-field:cepet
+-Properties: encapsulate 
+
+
 
 
 
