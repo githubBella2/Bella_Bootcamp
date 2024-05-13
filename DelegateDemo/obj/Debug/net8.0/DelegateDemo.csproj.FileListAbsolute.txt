@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\DelegateDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\DelegateDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\DelegateDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\DelegateDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\DelegateDemo.sourcelink.json
+D:\Bella_Bootcamp\DelegateDemo\bin\Debug\net8.0\DelegateDemo.exe
+D:\Bella_Bootcamp\DelegateDemo\bin\Debug\net8.0\DelegateDemo.deps.json
+D:\Bella_Bootcamp\DelegateDemo\bin\Debug\net8.0\DelegateDemo.runtimeconfig.json
+D:\Bella_Bootcamp\DelegateDemo\bin\Debug\net8.0\DelegateDemo.dll
+D:\Bella_Bootcamp\DelegateDemo\bin\Debug\net8.0\DelegateDemo.pdb
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\DelegateDemo.dll
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\refint\DelegateDemo.dll
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\DelegateDemo.pdb
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\DelegateDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\DelegateDemo\obj\Debug\net8.0\ref\DelegateDemo.dll

@@ -1,0 +1,48 @@
+CONSTRUCTOR
+hal pertama yang akan dipanggil, missal saat memanggil obj Employee emp = new()
+
+Struct (Value type- int,float,bool): mirip kelas tapi value type. Disimpan di stack. 
+Tidak butuh interaksi dengan kelas lain. Tidak mendukung inheritance, untuk simpan data2 kecil.
+
+DEFAULT VALUE
+reference type: null
+
+value type:
+int x;
+secara otomatis kosong (0).
+
+NESTED TYPE
+special occasion (lebih bagus pakai inheritance, composition)
+-memanggil dirinya sendiri (di dalam if ada if lagi)
+
+
+DELEGATE
+sebuah type yang dapat mereferensikan alamat method, method signature sama.
+Delegasikan nama nama yg ada, atas nama dia.
+Bisa mendelegasikan banyak method.
+Alias dari method2 yang sudah dibuat, cm merefrenseikan ke method lain
+Passng alamat jadi ga perlu parenthesis
+Jika ada return value yang dikembalikan nilai dari method yang terakhir dipanggil
+-Method signature: return value, jumlah parameter dan tipe data parameter. 
+-Invoke: pengcekan null value
+-Invoke adalah cara menjalankan suatu program di thread baru.
+-Di dalam process, ada thread.
+Contoh task manager
+
+-4 macam delegate default, yang sering dipakai Func dan Action,Predicate
+>Action: tidak membutuhkan return value
+>Func: meminta nilai yang akan dikembalikan
+>Predicate: return value Boolean, khusus untuk melakukan pengecekan
+
+ACTION HANDLER
+-kalua terjai sesuatu di suatu kelas, akan ada method di kelas lain yang dipanggil
+Event adalah delegate
+Method yang menarik trigger : Pakai kata "On" di depan 
+Handler: sesuatu yang akan dilakukan jika sesuatu terjadi
+1 event bisa banyak handler
+1 publisher, bisa banyak subscriber
+
+
+
+
+
