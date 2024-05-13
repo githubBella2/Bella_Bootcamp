@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\ExceptionEx.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\ExceptionEx.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\ExceptionEx.AssemblyInfo.cs
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\ExceptionEx.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\ExceptionEx.sourcelink.json
+D:\Bella_Bootcamp\ExceptionEx\bin\Debug\net8.0\ExceptionEx.exe
+D:\Bella_Bootcamp\ExceptionEx\bin\Debug\net8.0\ExceptionEx.deps.json
+D:\Bella_Bootcamp\ExceptionEx\bin\Debug\net8.0\ExceptionEx.runtimeconfig.json
+D:\Bella_Bootcamp\ExceptionEx\bin\Debug\net8.0\ExceptionEx.dll
+D:\Bella_Bootcamp\ExceptionEx\bin\Debug\net8.0\ExceptionEx.pdb
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\ExceptionEx.dll
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\refint\ExceptionEx.dll
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\ExceptionEx.pdb
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\ExceptionEx.genruntimeconfig.cache
+D:\Bella_Bootcamp\ExceptionEx\obj\Debug\net8.0\ref\ExceptionEx.dll

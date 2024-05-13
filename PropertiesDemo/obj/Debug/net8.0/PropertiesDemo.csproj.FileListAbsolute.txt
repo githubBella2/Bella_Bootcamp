@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.sourcelink.json
+D:\Bella_Bootcamp\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.exe
+D:\Bella_Bootcamp\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.deps.json
+D:\Bella_Bootcamp\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.runtimeconfig.json
+D:\Bella_Bootcamp\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.dll
+D:\Bella_Bootcamp\PropertiesDemo\bin\Debug\net8.0\PropertiesDemo.pdb
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.dll
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\refint\PropertiesDemo.dll
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.pdb
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\PropertiesDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\PropertiesDemo\obj\Debug\net8.0\ref\PropertiesDemo.dll
