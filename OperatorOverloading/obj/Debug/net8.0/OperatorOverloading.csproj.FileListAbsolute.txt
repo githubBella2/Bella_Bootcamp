@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\OperatorOverloading.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\OperatorOverloading.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\OperatorOverloading.AssemblyInfo.cs
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\OperatorOverloading.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\OperatorOverloading.sourcelink.json
+D:\Bella_Bootcamp\OperatorOverloading\bin\Debug\net8.0\OperatorOverloading.exe
+D:\Bella_Bootcamp\OperatorOverloading\bin\Debug\net8.0\OperatorOverloading.deps.json
+D:\Bella_Bootcamp\OperatorOverloading\bin\Debug\net8.0\OperatorOverloading.runtimeconfig.json
+D:\Bella_Bootcamp\OperatorOverloading\bin\Debug\net8.0\OperatorOverloading.dll
+D:\Bella_Bootcamp\OperatorOverloading\bin\Debug\net8.0\OperatorOverloading.pdb
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\OperatorOverloading.dll
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\refint\OperatorOverloading.dll
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\OperatorOverloading.pdb
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\OperatorOverloading.genruntimeconfig.cache
+D:\Bella_Bootcamp\OperatorOverloading\obj\Debug\net8.0\ref\OperatorOverloading.dll

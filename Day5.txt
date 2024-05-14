@@ -31,7 +31,7 @@ Contoh task manager
 
 -4 macam delegate default, yang sering dipakai Func dan Action,Predicate
 >Action: tidak membutuhkan return value
->Func: meminta nilai yang akan dikembalikan
+>Func: meminta nilai yang akan dikembalikan. Tipe delegates yang Zero or input , one output. 
 >Predicate: return value Boolean, khusus untuk melakukan pengecekan
 
 ACTION HANDLER

@@ -1,0 +1,83 @@
+LAMBDA EXPRESSION (lebih dianjurkan)
+-kependekan dari anonymous method
+-anonymous method: Method tanpa nama.-> ada keyword delegate
+
+OPERATOR OVERLOADING
+type harus class/struct
+bisa punya parameter
+harus static function
+Concreate class: kelas yang bisa diwujudkank menjadi objek
+Abstract class: kelas yang tidak bisa diwujudkan menjadi objek
+
+
+NULLABLE VALUE
+memingkinkan assign null ke value type (yang dfefault nya 0).
+
+PARTIAL CLASS
+kelas yang smaa, dibuat di file terpisah. Pakai keyword partial (public partial class)
+
+//class diagram interface,delegate,dll
+https://www.geeksforgeeks.org/unified-modeling-language-uml-class-diagrams/
+https://www.mermaidchart.com/
+VS CODE: Mermaid Preview
+
+ANALYZE:
+deskripsi masalah. Contoh fmlx akan menerima pegawai sesuai...
+-> Noun jadi kelas, responsibility tiap kelas (jangan ada god class)
+-> skalabilitas (SOLID PRINCIPLE)
+
+Design: menentukan field dan method dari kelas
+CLASS DIAGRAM
+Coding
+SOLID
+Single responsibility
+
+ENUMERATOR
+ambil satu per satu
+pointer yang bisa menelusuri collection (object), harus implementasi IEnumerator (current, move next,reset,dispose)
+cth: array [100] - bisa menelusuri index 0 sampai 99
+
+-Enum: enumeration - koleksi konstanta yang bisa ditelusuri.
+O(1) - langsung dapat
+O(0) - harus semua dicari
+
+-Array : spt string, kalua dimodif berarti dibuat ulang
+
+List- 
+
+
+ITERATOR 
+bisa bikin serangkaian collection
+
+bisa melakukan yield return (implementasi IEnumerable)- memungkinkan untuk diruntut
+
+IEnumerable - semua non generic collection wajib implement ini - genericnya : IEnumerable <T>
+
+IEnumerator - semua non generic collection wajib implement ini - genericnya : IEnumerator <T>
+
+
+
+
+
+COLLECTION
+sekumpulan data
+index base: array, list
+FIFO: prioritized (queue), FIFO: stack
+
+
+
+DICTIONARY
+dictionary (key,value)
+
+ARRAYLIST
+    // arraylist: tidak type safety. bisa memasukkan apa saja
+
+LINKEDLIST
+//linkedlist : 
+
+HASHSET
+tipe data yang tidak boleh sama.
+
+STACK
+tumpukan (LIFO), artinya cuma push dan pop(ambil yang terakhir masuk)
+

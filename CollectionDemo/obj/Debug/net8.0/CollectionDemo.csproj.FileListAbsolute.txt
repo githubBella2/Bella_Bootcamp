@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\CollectionDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\CollectionDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\CollectionDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\CollectionDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\CollectionDemo.sourcelink.json
+D:\Bella_Bootcamp\CollectionDemo\bin\Debug\net8.0\CollectionDemo.exe
+D:\Bella_Bootcamp\CollectionDemo\bin\Debug\net8.0\CollectionDemo.deps.json
+D:\Bella_Bootcamp\CollectionDemo\bin\Debug\net8.0\CollectionDemo.runtimeconfig.json
+D:\Bella_Bootcamp\CollectionDemo\bin\Debug\net8.0\CollectionDemo.dll
+D:\Bella_Bootcamp\CollectionDemo\bin\Debug\net8.0\CollectionDemo.pdb
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\CollectionDemo.dll
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\refint\CollectionDemo.dll
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\CollectionDemo.pdb
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\CollectionDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\CollectionDemo\obj\Debug\net8.0\ref\CollectionDemo.dll
