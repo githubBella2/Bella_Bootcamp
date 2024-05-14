@@ -18,27 +18,24 @@ public class Human
     public int IDd { get; }
     public string Name { get; set; }
 
+    private int _balance;
+
     public int Balance
     {
-        get { };
+        get { return this._balance;}
         // private set;
         set
         {
-            if (value >= 0 && value <= 1000000)
+            if (value > 0 && value <= 1000000)
             {
                 // try
                 // {
-                //     System.Console.WriteLine("Silahkan mengajukan permintaan.");
-                // }
-                // catch (System.Exception e)
-                // {
-                //     System.Console.WriteLine("Jangan hutang.");
-                //     throw;
-                // }
+                System.Console.WriteLine("Silahkan mengajukan permintaan.");
+                this._balance=value;
             }
             else
             {
-
+                System.Console.WriteLine("Balance value is not allowed");
             }
         }
 
