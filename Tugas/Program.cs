@@ -6,16 +6,35 @@ class Program
     //Func atau Action
     static void Main(string[] args)
     {
-        System.Console.WriteLine("Masukkan angka: ");
-        int num = Convert.ToInt32(Console.ReadLine());
-        // GetNumbers(num);
+        Action<int> printFooBar = (n) =>
+        {
+            for (int i = 0; i <= n; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    System.Console.WriteLine("foo");
+                }
+                else if (i % 5 == 0)
+                {
+                    System.Console.WriteLine("bar");
+                }
+                else if (i % 3 == 0 && i % 5 == 0)
+                {
+                    System.Console.WriteLine("foobar");
+                }
+                else
+                {
+                    System.Console.WriteLine(i);
+                }
 
-        GetNumbers(num, i => Console.WriteLine(i % 3 == 0 ? "Foo":i.ToString()));
 
-        // foreach (var foo in GetNumbers(num))
-        // {
-        //     System.Console.WriteLine(foo);
-        // }
+            }
+        };
+
+        Console.Write("User input => ");
+        int n = Convert.ToInt32(Console.ReadLine());
+
+        printFooBar(n);
 
 
     }
@@ -43,26 +62,6 @@ class Program
     //     }
     // }
 
-    public static void GetNumbers(int n, Action<int> action)
-    {
-        for (int i = 0; i <= n; i++)
-        {
-            if (i % 3 == 0)
-            {
-                action(i);
-            }
-            else if (i % 5 == 0)
-            {
-                action(i);
-            }
-            else if (i % 3 == 0 && i % 5 == 0)
-            {
-                action(i);
-            }
-            else
-            {
-                action(i);
-            }
-        }
-    }
+
+
 }
