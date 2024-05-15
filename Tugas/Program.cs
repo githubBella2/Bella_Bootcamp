@@ -1,70 +1,74 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
-
+using Tugas;
 class Program
 {
     //Func atau Action
     static void Main(string[] args)
     {
+        QueueClass queue = new QueueClass();
+        DictionaryClass dictionary = new DictionaryClass();
 
-        Action<int> printFooBar = (n) =>
+        System.Console.WriteLine("Masukkan nilai n: ");
+
+        if (int.TryParse(Console.ReadLine(), out int n))
         {
-            for (int i = 0; i <= n; i++)
+            for (int i = 0; i < n; i++)
             {
-                if (i % 3 == 0)
+                if (dictionary.ContainsKey(i))
                 {
-                    System.Console.WriteLine("foo");
-                }
-                else if (i % 5 == 0)
-                {
-                    System.Console.WriteLine("bar");
-                }
-                else if (i % 3 == 0 && i % 5 == 0)
-                {
-                    System.Console.WriteLine("foobar");
+                    queue.Enqueue(dictionary.GetValue(i));
                 }
                 else
                 {
-                    System.Console.WriteLine(i);
+                    queue.Enqueue(i.ToString());
                 }
-
-
             }
-        };
+            // PrintFooBar(n);
+             queue.PrintQueue();
+        }
+        else
+        {
+            System.Console.WriteLine("Input tidak valid. Masukkan bilangan bulat ");
 
-        Console.Write("User input => ");
-        int n = Convert.ToInt32(Console.ReadLine());
-        printFooBar(n);
-
-        Queue <int> 
-
+        }
 
 
     }
-    // public static void GetNumbers(int num)
+
+    // static void PrintFooBar(int n)
     // {
-    //     for (int i = 0; i <= num; i++)
+    //     Queue<string> queue = new Queue<string>();
+    //     for (int i = 0; i < n; i++)
     //     {
-    //         if (i % 3 == 0)
+    //         if ((i + 1) % 3 == 0 && (i + 1) % 5 == 0)
     //         {
-    //             System.Console.WriteLine("foo");
+    //             queue.Enqueue("foobar");
     //         }
-    //         else if (i % 5 == 0)
+    //         else if ((i + 1) % 3 == 0)
     //         {
-    //             System.Console.WriteLine("bar");
+    //             queue.Enqueue("foo");
     //         }
-    //         else if (i % 3 == 0 && i % 5 == 0)
+    //         else if ((i + 1) % 5 == 0)
     //         {
-    //             System.Console.WriteLine("foobar");
+    //             queue.Enqueue("bar");
     //         }
     //         else
     //         {
-    //             System.Console.WriteLine(i);
+    //             queue.Enqueue(i.ToString());
     //         }
-
     //     }
+
+    //     // Menampilkan isi queue sebagai urutan output
+    //     for (int i = 0; i < n; i++)
+    //     {
+    //         Console.Write(queue.Dequeue());
+    //         if (i < n - 1)
+    //         {
+    //             Console.Write(", ");
+    //         }
+    //     }
+    //     Console.WriteLine();
     // }
-
-
 
 }
