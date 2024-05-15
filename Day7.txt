@@ -46,4 +46,11 @@ tumpukan.
  Card deck special method shuffle,dst.
  
 
+startgame
+-Card
+
+card gak pake list
+methodcombo :
+
+php artisan serve
 
