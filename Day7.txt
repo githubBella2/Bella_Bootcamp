@@ -1,0 +1,49 @@
+Kalau bisa jangan dimodif, tapi di exten
+Dictionary/gengeric. Key x value y. 
+Misalnya: AddCse(value, key);
+disimpan dalan queue
+
+//UNO
+wajib implementasikan OOP termasuk abstraction, 
+wajib menggunakan delegate
+require: 
+funcional : bisa menambahkan player brp banyak.
+kalah seperti apa, menang seperti apa.
+user story: sebagai pemain game, saya bisa melakukan apa. 
+
+non funcional : 
+
+
+UNO:
+System membagikan kartu ke player.
+Player bergantian melempar kartu
+-Muter -> keluarkan sesuai warna
+        -> Keluarkan kartu 4 warna
+        -> Keluarkan kartu yang warnanya sesuai dari salah 1 keempat tsb
+        -> +2 jika tidak punya
+        -> Stop
+        -> kartu habis menang
+        -> Ambil kartu
+
+Noun:
+-System
+-Player
+-Kartu
+
+Relation:
+-Player Keluarkan kartu sesuai warna
+-Player keluarkan kartu sesuai simbol
+-Player keluarkan kartu 4 warna
+-Player mengambil kartu 
+- Kartu habis, menang
+
+note for Duck 
+"DrawCard: ambil kartu dari 
+tumpukan. 
+\nGetCard: ambil kartu koleksi
+ kartu player. "
+
+ Card deck special method shuffle,dst.
+ 
+
+

@@ -6,6 +6,7 @@ class Program
     //Func atau Action
     static void Main(string[] args)
     {
+
         Action<int> printFooBar = (n) =>
         {
             for (int i = 0; i <= n; i++)
@@ -33,8 +34,10 @@ class Program
 
         Console.Write("User input => ");
         int n = Convert.ToInt32(Console.ReadLine());
-
         printFooBar(n);
+
+        Queue <int> 
+
 
 
     }
