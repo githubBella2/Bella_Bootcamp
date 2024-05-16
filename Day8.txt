@@ -1,0 +1,138 @@
+OOP: Objek oriented programming, didalamnya ada kelas
+dan objek yang berinteraksi satu sama lain.
+
+4Pilar OOP:
+1.Encap: menyembunyikan variabel dan mengaksesnya
+dengan properti yang telah dibuat get set.
+2. Inhertiance (Waris): 
+3.Polymor: 
+4.abstraction: Menyembunyikan detail implementasi 
+-Tidak harus di override semua
+
+Bbxing: bungkus value type jadi referen type
+unboxing: bongkar, referen mjd value 
+
+VARIABEL:
+varibll utk simpan data, TIDAK punya akss kontrl utk akses, manipulasi data.
+
+FIELD:
+wrapper yang memberikan akses kontrol tsb.
+menyediakan cara untuk baca, nulis field, dan menambah logika validasi.
+
+
+Interface: mendefinisakn kontrak yang harus diikuti oleh kelas lain.
+-Ya harus diimplementasikan semua methodnya
+
+Acces Modifier
+-Public: bisa diakses semua kelas
+-private: diakses dalam kelas itu sendiri
+-protected: dapat diakses dari class turunan
+-internal: dapat diakses pada assembly yg sama
+-protected internal= diakses dari class turunan dan assembly
+
+Enum:
+tipedata utk definisikan konstanta
+
+Generic class:
+method yang tidak menentukan tipe data saat deklarasi
+
+Params:
+digunakan untuk menerima jumlah argumen yang tidak tetap
+
+Refparameter : parameter dapat berubah dan bisa digunakan utk output
+InParameter :tidak bisa diubah hanya diambil nilai saja
+OutParameter : harus  diinialisasi
+
+Delegate: tipe data yg merefeensikan ke method
+FUNCTION
+Event Handeler
+Bertanggung jawab untuk menangani atau merespons 
+kejadian (events) yang terjadi dalam program. 
+Kejadian bisa berasal dari berbagai sumber 
+seperti tombol yang ditekan, klik mouse, atau 
+perubahan nilai pada suatu objek. 
+kelas yg enyampaikan :Publisher
+kelas yg menangani: susbcribre
+
+ASCTION
+
+Predicate
+menerima dan mengembalikan nilai boolean
+Comparison
+membandingkan 2 objek dan mengembalikan bilangan int yang
+menandakan hasil perbandingan.
+Sering digunakan dalam pengurutan.sorting data.
+
+
+Eror handler:
+Error handler adalah bagian dari kode 
+yang bertanggung jawab untuk menangani 
+atau mengelola kesalahan (errors) yang terjadi 
+selama eksekusi program. 
+
+
+
+
+COLLECTION
+Dictionary:
+Struktur data untuk simpan kumpulan key-value
+hash: unik
+Stack:LIFO
+Queue:FIFO
+
+
+ENUMERATOR:
+-objek yang menyediakan cara untuk mengakses 
+elemen tsb scr berurutan
+-menerapkan IEnum spy bisa dienumerate.
+checknya .movenext dan printnya .current
+
+ITERATOR:
+cara yg lebih bersih dan efisien
+
+Stack:
+
+Stack di C# digunakan untuk menyimpan variabel lokal, parameter metode, dan referensi ke objek.
+Ukuran stack biasanya tetap dan ditentukan pada saat kompilasi.
+Alokasi dan dealokasi memori di stack bersifat otomatis dan cepat karena hanya memindahkan pointer stack.
+Data di stack diakses secara linier, dan akses ke data di stack lebih cepat dibandingkan heap.
+Heap:
+
+Heap digunakan untuk menyimpan objek dinamis yang alokasinya tidak diketahui pada saat kompilasi.
+Ukuran heap bisa berubah selama runtime program.
+Alokasi memori di heap memerlukan waktu yang lebih lama karena melibatkan proses alokasi memori yang kompleks.
+Objek di heap harus didealokasi secara eksplisit oleh pengguna menggunakan garbage collector atau metode lainnya.
+Dalam konteks C#, 
+objek yang dibuat menggunakan kata kunci new 
+secara default ditempatkan di heap, sementara variabel 
+lokal dan parameter metode ditempatkan di stack. 
+Namun, perlu diingat bahwa referensi ke objek di stack 
+sebenarnya menunjuk ke lokasi objek di heap, bukan objek itu sendiri.
+------------------------------------------------------------------------
+STATIC:
+gak usah panggil objek karena dia sendiri sudah objek.
+di panggil sekali.
+
+Pakai delegate,
+agar kalau panggil method tidak bikin objek
+Lebih disarankan pakai Func, Action utk delegate
+
+
+/GetCard()
+/GetCards(IPlayer,player,jumlahKartuDiambil)// untuk mengambil kartu dengan parameter jumlah.
+
+Enum color buat jadi composition
+enum angka, enum color.
+efeknya +2/+4/skip.
+Action~IPlayer, int~ OnLifeChange
+
+contoh
+King
+{IPlayer player; /King nya siapa?
+OnCheckedMate(); //method yg mentriger.
+CheckMate(); //panggil delegate, otomatis panggil semua method di dalam GameCont
+}
+
+GameController{
+    Winner();
+}

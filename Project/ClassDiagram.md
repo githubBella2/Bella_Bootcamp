@@ -4,23 +4,23 @@ title: Animal example
 ---
 classDiagram
 
-    Game <|-- IPlayer
+    GameController <|-- IPlayer
     
     %% Card <|-- Player
     IPlayer <|-- ICard
    
-   ICard <|-- ICardDeck : implements
-    %% ICardDeck <|-- CardDeck : implements
+   ICard <|-- Card : implements
+    %% Card <|-- CardDeck : implements
 
     %% Player <|-- IPlayer : implements
     IPlayer <|-- Player: implements
 
     
-    Game : -IPlayer players  
-    Game : -ICardDeck deck
-    Game : +StartGame()
-    Game : +MakeMove()
-    Game : +CheckWinner()
+    GameController : -IPlayer players  
+    GameController : -Card deck
+    GameController : +StartGame()
+    GameController : +MakeMove()
+    GameController : +CheckWinner()
 
     class ICard {
     <<interface>>
@@ -28,17 +28,26 @@ classDiagram
         - +~get;set;~ string warna GetSet
         +Shuffle()
         +DrawCard()
-        +GetCard()
-       
+        +GetCard()   
     }
     
-
-    class ICardDeck{
+    class Card{
    
-        +Shuffle()
-        +DrawCard()
-        +GetCard()
     }
+    class IPlayer{
+    <<interface>>
+        +~get;set;~ String name 
+       
+        +PlayCard()
+    }
+    
+    class Player{
+        -List <<Card>> cards
+        +void delegate MyDelegate()
+        HitungPoin()
+        KartuSisaSatu(Card jumlah) //Action
+    }
+
 
 
 
@@ -49,18 +58,7 @@ classDiagram
 
     %% }
 
-    class IPlayer{
-    <<interface>>
-        +~get;set;~ String name 
-       
-        +PlayCard()
-    }
     
-    class Player{
-        -List <<Card>> cards
-        HitungPoin()
-    }
-
 
 
 ```
