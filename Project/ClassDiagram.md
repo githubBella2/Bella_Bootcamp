@@ -1,98 +1,133 @@
 ```mermaid
 ---
-title: Animal example
+title: UNO
 ---
 classDiagram
-    GameController <|-- ICard
-    GameController <|-- PlayerData
-    GameController <|-- IPlayer
-    GameController <|-- GameStatus
-    IPlayer <|-- Player
-    PlayerData <|-- ICard 
-    ICard <|-- Card : implements
-   
+    ICard --o GameController 
+    PlayerData --o GameController
+    IPlayer --o GameController
+    GameStatus --o GameController
+    IPlayer <|-- Player : implements
 
-    PlayerData <|-- Player
+    ICard --o PlayerData 
+    ICard <|-- NumberCard : implements
+    ICard <|-- SkipCard : implements
+    ICard <|-- DrawTwoCard : implements
+    ICard <|-- ReverseCard : implements
+    ICard <|-- WildCard : implements
+    ICard <|-- WildDrawFourCard : implements
 
 
-    Angka  --> ICard
-    Warna  --> ICard
-    Efek  --> ICard
+    Player --o PlayerData
+    Number --o NumberCard : Aggregation
+    Colors --o ICard : Aggregation
+
+
+
+
 
     class GameController{
-        -IPlayer _player
-        -ICard _card
+        -List~ICard~ _cardList
+        -List~ICard~ _discardPile 
+        -Dictionary ~IPlayer player~
         -int _numOfPlayer
-        +StartGame()
-        +MakeMove(IPlayer player, ICard card)
-        +CheckWinner(IPlayer player,ICard card)
-        +StopGame()
+        -IPlayer _currentPlayer 
+        -GameStatus _gameStatus
+        -isReverse : bool
+        +GameController(int player=_numOfPlayer, ICard card, GameStatus status)
+        +StartGame() : bool
+        +GameStatus(_gameStatus)
+        +Shuffle(ICard, _numOfPlayer, IPlayer)
+        +DrawCardForNextPlayer(int count)
+        +NextTurn():void
+        +MakeMove(IPlayer player, ICard card) 
+        +ReverseRotation() :void
+        +SkipPlayer() :void
+        +ChooseColor():void
+        +CheckWinner(IPlayer player)
+        +StopGame():bool
+        
         
     }
+
     class IPlayer{
     <<interface>>
         +~get;set;~ String name
         +GetName() : string
     }
+
     class Player{
     ...
     }
+    
     class PlayerData{
-        -List ~Card~ Cards
-        +void delegate MyDelegate()
+        +List ~ICard~ Cards
         Func ~ICard, int~ TotalKartu 
-        +PlayCard()
         Action ~IPlayer~ SaidUno
-        Action ~ICard~ TambahKartu
+        Action ~ICard~ DrawCard
+        +PlayCard(ICard card):void
+        +Drawcard(ICard card):void
+        
+    }
+    class Colors{
+        <<enumeration>>
+        Merah
+        Hijau
+        Biru
+        Kuning
     }
 
     class ICard {
     <<interface>>
         %% -+~get;set;~ int number
-        %% -+~get;set;~ string warna GetSet
-        %% -<get;set>
-        Enum Warna
-        Enum Angka
-        Enum Efek
-        +Shuffle()
-        +DrawCard(Warna warna, Angka angka, Efek efek)
-        +GetCard(Warna warna, Angka angka, Efek efek)   
+        %% -+~get;set;~ string warna 
+        +Colors warna
+        +Play(GameController game)
     }
-    
-    
-    class Card{
-        +GetWarna()
-        +GetAngka()
-        +GetEfek()
-        +Reset()
-    }
-    class  Warna{
-    <<enumeration>>
-        merah
-        kuning
-        hijau 
-        biru
-    }
-    class  Angka{
-    <<enumeration>>
+
+    class Number{
+        <<enumeration>>
         1
-        2
-        3
-        4
-        5
-        6
-        7
-        8
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
         9
     }
-    class  Efek{
-    <<enumeration>>
-        reverse
-        stop
-        plus 4
-        plus 2
-        4warna
+
+    class NumberCard{
+        +Number angka
+        +NumberCard (Number angka, Colors warna)
+        +GetColor(): Colors
+        +GetNumber(): Number
+        
     }
+
+    class SkipCard{
+        +SkipCard(Colors warna)
+        +GetColor():Colors
+    }
+    class DrawTwoCard{
+        +DrawTwoCard(Colors warna)
+        +GetColor():Colors
+        
+    }
+    class ReverseCard{
+        +ReverseCard(Colors warna)
+        +GetColor():Colors
+    }
+    class WildCard{
+        +warna : null
+    }
+    class WildDrawFourCard{
+        +warna :null
+    }
+    
+    
+   
     class  GameStatus{
     <<enumeration>>
         NotStarted,
