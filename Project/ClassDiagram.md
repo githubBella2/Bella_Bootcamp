@@ -29,11 +29,13 @@ classDiagram
     class GameController{
         -List~ICard~ _cardList
         -List~ICard~ _discardPile 
-        -Dictionary ~IPlayer player~
+        -List ~IPlayer~ _player
+        -Dictionary~IPlayer,ICard~_playerCard
         -int _numOfPlayer
         -IPlayer _currentPlayer 
         -GameStatus _gameStatus
         -isReverse : bool
+        -isSkip : bool
         +GameController(int player=_numOfPlayer, ICard card, GameStatus status)
         +StartGame() : bool
         +GameStatus(_gameStatus)
@@ -61,7 +63,7 @@ classDiagram
     }
     
     class PlayerData{
-        +List ~ICard~ Cards
+        -List ~ICard~ Cards
         Func ~ICard, int~ TotalKartu 
         Action ~IPlayer~ SaidUno
         Action ~ICard~ DrawCard
