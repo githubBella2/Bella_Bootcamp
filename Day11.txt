@@ -1,0 +1,19 @@
+INTERFACE
+public string Name{get;}
+public class Card{
+	public string Nama{get;}
+}
+
+CHILD
+private set
+
+public class CardName:Card{
+	public string ? Nama{
+get{
+if(Nama != null){return Nama;}
+}else {
+return null;
+}
+
+}private set {this.Nama=value}
+}
