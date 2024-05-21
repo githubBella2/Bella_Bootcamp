@@ -17,3 +17,27 @@ return null;
 
 }private set {this.Nama=value}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Method Set pakai return bool.
+SetNumOfPlayer(int num)::bool.
+-kalua  misalnya udah mencapai maximal sebanyak 8, maka return false.

@@ -1,0 +1,22 @@
+Day12
+
+Relasi playerdata-IPlayer
+
+GC
+method
+addplayer
+kartuhabis
+countingCard()
+
+implement->realisaiton
+Number->NnumberCard: Comp
+ReverseRotaion: arah
+dictionary <list icard>
+Shuffle(list <icard>)
+
+gc: method displaycard
+
+hapus action drawcard di playerdata
+method mycard di playerdata
+atau
+listcardinhand	
