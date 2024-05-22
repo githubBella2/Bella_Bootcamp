@@ -1,0 +1,83 @@
+C/C++							C#
+low level language - compile jd assembly		high level language -IL(Intermediate Language)
+Memory allocate						Garbage Collector(automatic memory allocation)
+
+.NET -> environment local
+BCL (Base Class Library) -> Microsoft Library
+CLR (Common Language Runtime) -> Runtime (GC, JIT Complier: C# - (Roslyn) - IL - (JIT) -assembly)
+
+Memory:
+Stack (os)
+
+Heap:
+-managed heap : all reference types
+-unmanaged heap: (diluar tanggung jawab .NET) file handle, network connection, memory allocated directly
+		by the operating system (os), library bhs lain -> developer harus nyuruh bersihin manual
+
+GC:
+-GEN 0: newly created object
+-GEN 1: objects that survived garbage collection
+-GEN 2: static, long live object, objects in LOH (Large Object Heap)
+(plus LOH > 85kb)
+
+Trigger GC:
+-Low memory
+-Threshold
+
+Trigger GC:
+-berjalan secara periodically
+-Ketika membuat array, GC berjalan terus
+-Alokasi memory ke LOH(bisa jadi)
+Simulasi:
+-Bikin object
+	Cat cat =new()// masuk gen 0
+	Cat cat2= new()// masuk gen 0
+--------------GC running----------------
+-Bikin object lagi
+	//cat dihapus
+	Dog dog= new()// masuk gen 0
+	Dog dog2 = cat2; //cat2 masuk gen 1, dog2 masuk gen 0
+-----------GC Running-------------------
+-Bikin object lagi
+	//dog2 sm cat2 diapus
+	Pig pig = new()// masuk gen 0
+	Pig pig2 = dog; // dog masuk gen 1, pig2 masuk gen 0
+
+Saat GC berjalan, semua proses dihentikan (freeze)
+	
+
+kalua dipakai dipromosiin, kalo gak dipake dibersiin
+
+Ketika membuat objek array, GC berjalan terus
+
+Cara GC memastikan mana objek yang bleh dibersihkan:
+Root: Variabel local, static, dll. Titik awal untuk mendeteksi apakah suatu objek masih dibutuhkan/hidup atau tidak.
+GC periksa root, melakukan marking (tandai objek yang masih digunakan)
+Jika objek tidak ada marking akan dihapus. 
+
+UNMANAGED: tidak bisa dipegang/dimanage langsung oleh .Net
+Dihapus pakai Dispose() -> user.
+
+Kenapa unmanage resource tidak dapat di handle dotnet?
+karena dibebaskan OS untuk di control secara langsung.
+OS atur I/O.
+
+Dispose(): sebuah method yang digunakan untuk membebaskan unmanaged resource.
+
+Kenapa menggunakan Interface?
+Karena kita cuma menggunakan method.
+
+FINALIZER(DESTRUCTOR):
+tidak disarankan dipakai karena jadi auto di-marking saat proses GC dijalankan.
+1. Finalizer bisa menghapus unmanaged resource yang sudah pasti ada, kalua ispose bleum tentu ada
+
+Kenapa kita pakai finalizer?
+gunanya untuk handle unmanaged resources.
+
+
+
+
+
+
+
+

@@ -20,3 +20,19 @@ hapus action drawcard di playerdata
 method mycard di playerdata
 atau
 listcardinhand	
+
+
+
+
+
+
+
+ //default delegate: action, func, predicate
+        Action<Enemy> updateHealth = (x) => x.TakeDamage(10);
+        // input enemy, nama action updateH, param x, x memanggil takeD
+        // x tipe Enemy
+
+        Action<Enemy> updateHealth(Enemy x)
+        {
+          ;;
+        }
