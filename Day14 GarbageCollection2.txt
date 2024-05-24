@@ -1,0 +1,37 @@
+Dest: metode yang akan digunakan utk menghandle unmanaegd resource, tetapi tidak disarankan karena terdapat marking
+Finalizer:
+
+GrandParent-Parent-Child.
+Child dulu dibunuh karena 
+
+
+FINALLY:
+tetap menjalankan exception/tidak.
+
+DISPOSE:
+ntuk menghapus resource unmanaegd heap dan managed, dengan menggunakan conditional
+
+USING lebih simple daripada TRYCATCH
+
+Manage Resource : adalah data ayng ada di heap.
+
+DEBUG
+------
+adalah sebuah proses mendeteksi adanya eror/kekurangan di program.
+tujuan: membuat program jadi sempurna.
+Cara debug:
+Identify
+Set breakpoint
+Analyze
+Fixing the bug
+Testing
+
+Tracing: menelusuri alur kerja (flow) dari program/sistem (alur saja)
+Logging: mencatat semua yang terjadi pada program (semua dicatat)
+
+Tracing != Logging
+
+Conditional compilation
+
+VARIABEL: simpen data x=7 misalnya
+DELEGATE: simpen fungsi (method kalo di oop). 

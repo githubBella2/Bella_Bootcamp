@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DisposeDemoo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3b5de89d1b22ff816ee498b6e4703debecad3c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4e47ab91838d680223f1d0a1a10cefadbbb406f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DisposeDemoo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DisposeDemoo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

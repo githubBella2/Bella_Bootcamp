@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\FileManager\bin\Debug\net8.0\FileManager.exe
+D:\Bella_Bootcamp\FileManager\bin\Debug\net8.0\FileManager.deps.json
+D:\Bella_Bootcamp\FileManager\bin\Debug\net8.0\FileManager.runtimeconfig.json
+D:\Bella_Bootcamp\FileManager\bin\Debug\net8.0\FileManager.dll
+D:\Bella_Bootcamp\FileManager\bin\Debug\net8.0\FileManager.pdb
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\FileManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\FileManager.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\FileManager.AssemblyInfo.cs
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\FileManager.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\FileManager.sourcelink.json
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\FileManager.dll
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\refint\FileManager.dll
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\FileManager.pdb
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\FileManager.genruntimeconfig.cache
+D:\Bella_Bootcamp\FileManager\obj\Debug\net8.0\ref\FileManager.dll

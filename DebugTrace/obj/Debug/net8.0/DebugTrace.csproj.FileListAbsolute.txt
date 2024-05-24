@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\DebugTrace\bin\Debug\net8.0\DebugTrace.exe
+D:\Bella_Bootcamp\DebugTrace\bin\Debug\net8.0\DebugTrace.deps.json
+D:\Bella_Bootcamp\DebugTrace\bin\Debug\net8.0\DebugTrace.runtimeconfig.json
+D:\Bella_Bootcamp\DebugTrace\bin\Debug\net8.0\DebugTrace.dll
+D:\Bella_Bootcamp\DebugTrace\bin\Debug\net8.0\DebugTrace.pdb
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\DebugTrace.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\DebugTrace.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\DebugTrace.AssemblyInfo.cs
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\DebugTrace.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\DebugTrace.sourcelink.json
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\DebugTrace.dll
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\refint\DebugTrace.dll
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\DebugTrace.pdb
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\DebugTrace.genruntimeconfig.cache
+D:\Bella_Bootcamp\DebugTrace\obj\Debug\net8.0\ref\DebugTrace.dll

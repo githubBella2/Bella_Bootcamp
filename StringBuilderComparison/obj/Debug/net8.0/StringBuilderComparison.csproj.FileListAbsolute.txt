@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\StringBuilderComparison\bin\Debug\net8.0\StringBuilderComparison.exe
+D:\Bella_Bootcamp\StringBuilderComparison\bin\Debug\net8.0\StringBuilderComparison.deps.json
+D:\Bella_Bootcamp\StringBuilderComparison\bin\Debug\net8.0\StringBuilderComparison.runtimeconfig.json
+D:\Bella_Bootcamp\StringBuilderComparison\bin\Debug\net8.0\StringBuilderComparison.dll
+D:\Bella_Bootcamp\StringBuilderComparison\bin\Debug\net8.0\StringBuilderComparison.pdb
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\StringBuilderComparison.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\StringBuilderComparison.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\StringBuilderComparison.AssemblyInfo.cs
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\StringBuilderComparison.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\StringBuilderComparison.sourcelink.json
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\StringBuilderComparison.dll
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\refint\StringBuilderComparison.dll
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\StringBuilderComparison.pdb
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\StringBuilderComparison.genruntimeconfig.cache
+D:\Bella_Bootcamp\StringBuilderComparison\obj\Debug\net8.0\ref\StringBuilderComparison.dll

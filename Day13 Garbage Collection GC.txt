@@ -12,7 +12,7 @@ Stack (os)
 Heap:
 -managed heap : all reference types
 -unmanaged heap: (diluar tanggung jawab .NET) file handle, network connection, memory allocated directly
-		by the operating system (os), library bhs lain -> developer harus nyuruh bersihin manual
+		by the operating system (os), library bhs lain -> developer harus nyuruh bersihin manual, Stream Reader
 
 GC:
 -GEN 0: newly created object
@@ -28,6 +28,8 @@ Trigger GC:
 -berjalan secara periodically
 -Ketika membuat array, GC berjalan terus
 -Alokasi memory ke LOH(bisa jadi)
+-Dipanggil manual : GC.Collect()
+-Threshold setiap gen (tergantung komputernya)
 Simulasi:
 -Bikin object
 	Cat cat =new()// masuk gen 0
@@ -69,10 +71,14 @@ Karena kita cuma menggunakan method.
 
 FINALIZER(DESTRUCTOR):
 tidak disarankan dipakai karena jadi auto di-marking saat proses GC dijalankan.
-1. Finalizer bisa menghapus unmanaged resource yang sudah pasti ada, kalua ispose bleum tentu ada
+1. Finalizer bisa menghapus unmanaged resource yang sudah pasti ada, kalua dispose belum tentu ada
 
 Kenapa kita pakai finalizer?
 gunanya untuk handle unmanaged resources.
+
+String.empty vs null
+null: gak ada alamatnya
+
 
 
 

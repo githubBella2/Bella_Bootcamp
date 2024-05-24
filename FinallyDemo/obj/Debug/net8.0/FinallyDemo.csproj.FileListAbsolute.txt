@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\FinallyDemo\bin\Debug\net8.0\FinallyDemo.exe
+D:\Bella_Bootcamp\FinallyDemo\bin\Debug\net8.0\FinallyDemo.deps.json
+D:\Bella_Bootcamp\FinallyDemo\bin\Debug\net8.0\FinallyDemo.runtimeconfig.json
+D:\Bella_Bootcamp\FinallyDemo\bin\Debug\net8.0\FinallyDemo.dll
+D:\Bella_Bootcamp\FinallyDemo\bin\Debug\net8.0\FinallyDemo.pdb
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\FinallyDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\FinallyDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\FinallyDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\FinallyDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\FinallyDemo.sourcelink.json
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\FinallyDemo.dll
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\refint\FinallyDemo.dll
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\FinallyDemo.pdb
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\FinallyDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\FinallyDemo\obj\Debug\net8.0\ref\FinallyDemo.dll

@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\ConditionalCompilation\bin\TEKOTOK\net8.0\ConditionalCompilation.exe
+D:\Bella_Bootcamp\ConditionalCompilation\bin\TEKOTOK\net8.0\ConditionalCompilation.deps.json
+D:\Bella_Bootcamp\ConditionalCompilation\bin\TEKOTOK\net8.0\ConditionalCompilation.runtimeconfig.json
+D:\Bella_Bootcamp\ConditionalCompilation\bin\TEKOTOK\net8.0\ConditionalCompilation.dll
+D:\Bella_Bootcamp\ConditionalCompilation\bin\TEKOTOK\net8.0\ConditionalCompilation.pdb
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\ConditionalCompilation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\ConditionalCompilation.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\ConditionalCompilation.AssemblyInfo.cs
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\ConditionalCompilation.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\ConditionalCompilation.sourcelink.json
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\ConditionalCompilation.dll
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\refint\ConditionalCompilation.dll
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\ConditionalCompilation.pdb
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\ConditionalCompilation.genruntimeconfig.cache
+D:\Bella_Bootcamp\ConditionalCompilation\obj\TEKOTOK\net8.0\ref\ConditionalCompilation.dll
