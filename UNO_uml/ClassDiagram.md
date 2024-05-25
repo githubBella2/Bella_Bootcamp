@@ -30,7 +30,7 @@ classDiagram
         -Dictionary <List ICard> _cardList
         -ICard _topCard
         -List ~IPlayer~ _player
-        -Dictionary~IPlayer,ICard~_playerData
+        -Dictionary~IPlayer,ICard~_playerCard
         -int _numOfPlayer
         -IPlayer _currentPlayer 
         -GameStatus _gameStatus
@@ -39,21 +39,18 @@ classDiagram
         +GameController(int player=_numOfPlayer, ICard card, GameStatus status)
         +StartGame() : bool
         +GameStatus(_gameStatus)
-        +Shuffle(_numOfPlayer, List ~IPlayer~, List~ICard~)
+        +Shuffle(_numOfPlayer, List ~IPlayer~, List<ICard>)
         +DrawCardForNextPlayer(int count)
         +NextTurn():void
-        +Function ~IPlayer,ICard,bool~ValidateCard
-        +Action~bool clockwise~ ReverseRotation
+        +MakeMove(IPlayer player, ICard card) 
+        +ReverseRotation(ref bool clockwise) :void
         +SkipPlayer() :void
-        +ChooseColor(ICard color):void
+        +ChooseColor():void
         +CheckWinner(IPlayer player)
         +StopGame():bool
         +AddPlayer(IPlayer player)
         +DisplayCard(List<IPlayer>):void
         +CountingCard(List<IPlayer>,List<ICard>):void
-        +ListPlayer(List~IPlayer~):void
-        +Action ~IPlayer~ CurrentPlayer
-        +Action ~IPlayer~ TotalPlayer
         
         
     }
@@ -67,7 +64,8 @@ classDiagram
    
     
     class PlayerData{
-        -List ~ICard~ Cards 
+        -List ~ICard~ Cards
+        Func ~ICard, int~ TotalKartu 
         Action ~IPlayer~ SaidUno
         Action ~ICard~ DrawCard
         +PlayCard(ICard card):void
@@ -76,17 +74,17 @@ classDiagram
     }
     class Colors{
         <<enumeration>>
-        Red
-        Green
-        Blue
-        Yellow
+        Merah
+        Hijau
+        Biru
+        Kuning
     }
 
     class ICard {
     <<interface>>
         %% -+~get;set;~ int number
-        %% -+~get;set;~ string color 
-        +Colors color
+        %% -+~get;set;~ string warna 
+        +Colors warna
         +Play(GameController game)
     }
 
@@ -104,31 +102,31 @@ classDiagram
     }
 
     class NumberCard{
-        +Number number
-        +NumberCard (Number number, Colors color)
+        +Number angka
+        +NumberCard (Number angka, Colors warna)
         +GetColor(): Colors
         +GetNumber(): Number
         
     }
 
     class SkipCard{
-        +SkipCard(Colors color)
+        +SkipCard(Colors warna)
         +GetColor():Colors
     }
     class DrawTwoCard{
-        +DrawTwoCard(Colors color)
+        +DrawTwoCard(Colors warna)
         +GetColor():Colors
         
     }
     class ReverseCard{
-        +ReverseCard(Colors color)
+        +ReverseCard(Colors warna)
         +GetColor():Colors
     }
     class WildCard{
-        +color : null
+        +warna : null
     }
     class WildDrawFourCard{
-        +color :null
+        +warna :null
     }
     
     

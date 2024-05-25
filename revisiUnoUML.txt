@@ -1,0 +1,21 @@
+Be consistent using English or Bahasa, don't mix it up, 
+we better use English so we can get usual work in formulatrix
+
+How if the the current player use reverse card? 
+Setiap kartu yang dilempar di cek dengan method ValidateCard, jika melempar reverse, maka memanggil reverse.
+how do we know the sequence turn of the player and how we reverse it? Done, sudah ditambahkan parameter clockwise
+what is the perfect collection to save the players data?
+Why we need Func TotalKartu if we can just get the data from Dictionary _playerCard in GameController? Done, dihapus
+Why we add delegate in player data? Done, sudah diganti. Act dan Func sudah ada di GC.
+Why ChooseColor did not ask any parameter? how can we pass the color data then? Done. Sudah ditambahkan.
+Are we gonna CheckWinner every turn of the game?
+What the meaning of MakeMove() method if we have NexTurn() method? 
+Sebenarnya MakeMove untuk validasi pada saat kartu yang dilempar 
+oleh player apakah benar/sesuai dengan kartu teratas. Jika iya/benar, maka memanggil NextTurn. 
+Mungkin penamaan MakeMove sedikit membingungkan, sehingga sudah saya ganti menjadi ValidateCard.
+What method UI can call to add a player? Done, sudah ditambahkan method AddPlayer
+What method we can call to get all the player? ListPlayer
+What method we can call to get the current player? Action ~IPlayer~ CurrentPlayer
+What method we can call to get the number of total player?        Action ~IPlayer~ TotalPlayer
+
+What is method GameStatus? is it to get the GameStatus or to set the GameStatus?
