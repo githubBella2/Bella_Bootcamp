@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskExercise", "TaskExercis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lock", "Lock\Lock.csproj", "{B1D0BC76-59DD-4C03-948C-125FDB3A9BE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tugas", "Tugas\Tugas.csproj", "{646FEF6D-9B21-42C4-9C84-543B2F9CF79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TugasThread", "TugasThread\TugasThread.csproj", "{337F490A-1041-47D4-8EEF-05AC7D3E3BC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{B1D0BC76-59DD-4C03-948C-125FDB3A9BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D0BC76-59DD-4C03-948C-125FDB3A9BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D0BC76-59DD-4C03-948C-125FDB3A9BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646FEF6D-9B21-42C4-9C84-543B2F9CF79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646FEF6D-9B21-42C4-9C84-543B2F9CF79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646FEF6D-9B21-42C4-9C84-543B2F9CF79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646FEF6D-9B21-42C4-9C84-543B2F9CF79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337F490A-1041-47D4-8EEF-05AC7D3E3BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337F490A-1041-47D4-8EEF-05AC7D3E3BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337F490A-1041-47D4-8EEF-05AC7D3E3BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337F490A-1041-47D4-8EEF-05AC7D3E3BC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

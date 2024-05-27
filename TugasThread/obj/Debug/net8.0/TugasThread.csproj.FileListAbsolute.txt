@@ -1,0 +1,15 @@
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\TugasThread.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\TugasThread.AssemblyInfoInputs.cache
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\TugasThread.AssemblyInfo.cs
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\TugasThread.csproj.CoreCompileInputs.cache
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\TugasThread.sourcelink.json
+E:\Bootcamp\TugasThread\bin\Debug\net8.0\TugasThread.exe
+E:\Bootcamp\TugasThread\bin\Debug\net8.0\TugasThread.deps.json
+E:\Bootcamp\TugasThread\bin\Debug\net8.0\TugasThread.runtimeconfig.json
+E:\Bootcamp\TugasThread\bin\Debug\net8.0\TugasThread.dll
+E:\Bootcamp\TugasThread\bin\Debug\net8.0\TugasThread.pdb
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\TugasThread.dll
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\refint\TugasThread.dll
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\TugasThread.pdb
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\TugasThread.genruntimeconfig.cache
+E:\Bootcamp\TugasThread\obj\Debug\net8.0\ref\TugasThread.dll

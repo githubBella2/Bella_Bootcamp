@@ -63,3 +63,5 @@ public class Program
 
 // game sederhana, misal ada tampilan hitung poin, menampilkan GUI.
 // user bisa masukin nama, multi threading
+// task/thread
+// foreground background
