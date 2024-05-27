@@ -1,0 +1,48 @@
+ASYNCHRONOYS
+Bisa mengerjkan hal lain selagi nunggu.
+
+
+SYNCHRONOUS: runtut
+Misalnya: kasir satu persatu melayani pembeli
+
+
+THREAD
+-small execution path -> mengeksekusi setiap proses.
+Misalnya:
+Perusahaan -> proses
+Karyawan -> Thread, menjalankan tugasnya masing2. 
+Bisa mengakses Data/resoruce dari thread lain selagi masih dalam satu perusahaan.
+-Parallel process,  multicore bisa menjalankan banyak thread
+
+FOREGROUND
+-kasir. 
+Program tidak akan berhenti sampai proses selesai.
+cth: saat bikin objek baru. 
+
+BACKGROUND
+-cleaning service. 
+Program bisa berhenti meskipun background thread selesai. 
+Bisa ditinggal2.
+cth: backup data secara berkala.    
+
+TASK
+sesuatu yang dijalankan oleh thread.
+ada dua cara : instantiate dan langsun run.
+task merupakan background thread
+TASK lebih baik/aman ketika bikin thread -> Asynchr
+task merupakan backgorund thread yang "dipinjam" dari thread pool
+
+THREAD POOL
+Thread new() ->FOREGROUND
+merupakan backgorund thread. 
+kumpulan backgorund thread yang diatur oleh CLR
+Jika masih dalam 1 proses, semua thread bisa akses resource yang sama 
+Race consition: jika lebih dari 1 thread mau akses 1 resource yg sama.
+Salah satu cara menyelesaikan race condition:LOCK /mengunci.
+    Masalah yg terjadi pada lock:
+DEADLOCK: keadaan saling tunggu karena ketergantungan thread dan lock.
+terjadi misalnya t1 membutuhkan data t2, tp t1 dan t2 mengakses A, saling tumbukan
+
+
+
+

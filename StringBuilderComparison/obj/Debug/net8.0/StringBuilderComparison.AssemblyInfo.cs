@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StringBuilderComparison")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4e47ab91838d680223f1d0a1a10cefadbbb406f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7b173d3330cf7976c5d86f918ae0fc50a680bd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("StringBuilderComparison")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StringBuilderComparison")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

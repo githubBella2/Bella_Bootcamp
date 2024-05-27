@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\ThreadDemo\bin\Debug\net8.0\ThreadDemo.exe
+D:\Bella_Bootcamp\ThreadDemo\bin\Debug\net8.0\ThreadDemo.deps.json
+D:\Bella_Bootcamp\ThreadDemo\bin\Debug\net8.0\ThreadDemo.runtimeconfig.json
+D:\Bella_Bootcamp\ThreadDemo\bin\Debug\net8.0\ThreadDemo.dll
+D:\Bella_Bootcamp\ThreadDemo\bin\Debug\net8.0\ThreadDemo.pdb
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\ThreadDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\ThreadDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\ThreadDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\ThreadDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\ThreadDemo.sourcelink.json
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\ThreadDemo.dll
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\refint\ThreadDemo.dll
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\ThreadDemo.pdb
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\ThreadDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\ThreadDemo\obj\Debug\net8.0\ref\ThreadDemo.dll

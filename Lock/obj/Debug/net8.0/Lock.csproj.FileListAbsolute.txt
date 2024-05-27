@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\Lock\bin\Debug\net8.0\Lock.exe
+D:\Bella_Bootcamp\Lock\bin\Debug\net8.0\Lock.deps.json
+D:\Bella_Bootcamp\Lock\bin\Debug\net8.0\Lock.runtimeconfig.json
+D:\Bella_Bootcamp\Lock\bin\Debug\net8.0\Lock.dll
+D:\Bella_Bootcamp\Lock\bin\Debug\net8.0\Lock.pdb
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\Lock.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\Lock.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\Lock.AssemblyInfo.cs
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\Lock.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\Lock.sourcelink.json
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\Lock.dll
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\refint\Lock.dll
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\Lock.pdb
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\Lock.genruntimeconfig.cache
+D:\Bella_Bootcamp\Lock\obj\Debug\net8.0\ref\Lock.dll

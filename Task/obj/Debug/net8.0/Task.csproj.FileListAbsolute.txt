@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\Task\bin\Debug\net8.0\Task.exe
+D:\Bella_Bootcamp\Task\bin\Debug\net8.0\Task.deps.json
+D:\Bella_Bootcamp\Task\bin\Debug\net8.0\Task.runtimeconfig.json
+D:\Bella_Bootcamp\Task\bin\Debug\net8.0\Task.dll
+D:\Bella_Bootcamp\Task\bin\Debug\net8.0\Task.pdb
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\Task.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\Task.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\Task.AssemblyInfo.cs
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\Task.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\Task.sourcelink.json
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\Task.dll
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\refint\Task.dll
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\Task.pdb
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\Task.genruntimeconfig.cache
+D:\Bella_Bootcamp\Task\obj\Debug\net8.0\ref\Task.dll
