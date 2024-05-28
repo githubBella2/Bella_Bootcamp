@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\WhenDemo\bin\Debug\net8.0\WhenDemo.exe
+D:\Bella_Bootcamp\WhenDemo\bin\Debug\net8.0\WhenDemo.deps.json
+D:\Bella_Bootcamp\WhenDemo\bin\Debug\net8.0\WhenDemo.runtimeconfig.json
+D:\Bella_Bootcamp\WhenDemo\bin\Debug\net8.0\WhenDemo.dll
+D:\Bella_Bootcamp\WhenDemo\bin\Debug\net8.0\WhenDemo.pdb
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\WhenDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\WhenDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\WhenDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\WhenDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\WhenDemo.sourcelink.json
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\WhenDemo.dll
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\refint\WhenDemo.dll
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\WhenDemo.pdb
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\WhenDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\WhenDemo\obj\Debug\net8.0\ref\WhenDemo.dll

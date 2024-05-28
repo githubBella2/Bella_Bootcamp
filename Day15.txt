@@ -42,7 +42,19 @@ Salah satu cara menyelesaikan race condition:LOCK /mengunci.
     Masalah yg terjadi pada lock:
 DEADLOCK: keadaan saling tunggu karena ketergantungan thread dan lock.
 terjadi misalnya t1 membutuhkan data t2, tp t1 dan t2 mengakses A, saling tumbukan
+Threadnya tidak perludi manage satu per satu 
 
-
-
-
+KESIMPULAN
+Thread              Task 
+-FOREGROUND         BACKGROUND
+-Bikin sendiri      Threadpool (task dimanage oleh thpool)
+-managemen sendiri  -..?
+(bikin pake new)
+-Multithreadhing    -Asynchr
+(Unpredictable :    (Async. Await. Lebih aman, ada exception handling)
+Race condition,
+Overhead)
+-Dipakai saat       -Akan dijalankan otomatis
+menjadwalkan
+sesuatu
+-Higher level       Lower level (lebih abstrak)

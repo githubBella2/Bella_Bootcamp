@@ -1,0 +1,42 @@
+GameController, panggil method ke GC.
+GC mau dipakai UI apapun oke oke aja.
+
+Thread blocking:ada task yang mengakibatkan terjadinya block main Thread
+wait()
+sleep()
+Lebih disarankan pakai when()
+
+whenAll: butuh mengembalikan semua data
+whenAny: mengembalikan salah satu nilai aja 
+
+WhenAll:
+WhenAll menunggu hingga semua tugas selesai sebelum melanjutkan eksekusi kode selanjutnya.
+Biasanya digunakan ketika Anda perlu menyelesaikan sekelompok tugas dan menangani hasilnya setelah semuanya selesai.
+WhenAny:
+WhenAny menunggu hingga salah satu tugas selesai, kemudian melanjutkan eksekusi kode.
+Berguna ketika Anda ingin menanggapi hasil dari tugas yang paling cepat selesai.
+
+EXEPTION:
+-Thread : Ketika dapat exception langsung berhenti. error harus ditangkan di tiap task
+-Task: ketika dapatexception masih jalan programnnya. ada aggregate exception buat banyak exception
+
+RACE CONDITION:
+
+Mengatasi rc:
+untuk pengulangan, simpan di lock
+
+Signaling: manual reset even dan auto reset event
+sinkronisasi dalam multi Thread
+
+Manual reset: harus tutup manual
+Automotis reset: tertutup sendiri -> false_no signal 
+
+Static: kalau mau ubah value secara global
+
+manual: reset() //false
+        set()//true
+        WaitOne()//tunggu sampe true
+    1 kerja, thread sisanya nunggu
+
+auto:
+Kalau mau waitOne tapi set dibawah, default true biar kepanggil semua

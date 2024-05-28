@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\bin\Debug\net8.0\TaskAsyncAwaitDemo.exe
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\bin\Debug\net8.0\TaskAsyncAwaitDemo.deps.json
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\bin\Debug\net8.0\TaskAsyncAwaitDemo.runtimeconfig.json
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\bin\Debug\net8.0\TaskAsyncAwaitDemo.dll
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\bin\Debug\net8.0\TaskAsyncAwaitDemo.pdb
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\TaskAsyncAwaitDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\TaskAsyncAwaitDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\TaskAsyncAwaitDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\TaskAsyncAwaitDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\TaskAsyncAwaitDemo.sourcelink.json
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\TaskAsyncAwaitDemo.dll
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\refint\TaskAsyncAwaitDemo.dll
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\TaskAsyncAwaitDemo.pdb
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\TaskAsyncAwaitDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\TaskAsyncAwaitDemo\obj\Debug\net8.0\ref\TaskAsyncAwaitDemo.dll

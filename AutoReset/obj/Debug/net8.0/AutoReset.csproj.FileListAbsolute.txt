@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\AutoReset.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\AutoReset.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\AutoReset.AssemblyInfo.cs
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\AutoReset.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\AutoReset.sourcelink.json
+D:\Bella_Bootcamp\AutoReset\bin\Debug\net8.0\AutoReset.exe
+D:\Bella_Bootcamp\AutoReset\bin\Debug\net8.0\AutoReset.deps.json
+D:\Bella_Bootcamp\AutoReset\bin\Debug\net8.0\AutoReset.runtimeconfig.json
+D:\Bella_Bootcamp\AutoReset\bin\Debug\net8.0\AutoReset.dll
+D:\Bella_Bootcamp\AutoReset\bin\Debug\net8.0\AutoReset.pdb
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\AutoReset.dll
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\refint\AutoReset.dll
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\AutoReset.pdb
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\AutoReset.genruntimeconfig.cache
+D:\Bella_Bootcamp\AutoReset\obj\Debug\net8.0\ref\AutoReset.dll

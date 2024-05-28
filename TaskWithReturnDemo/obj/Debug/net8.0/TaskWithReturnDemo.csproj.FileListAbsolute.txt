@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.sourcelink.json
+D:\Bella_Bootcamp\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.exe
+D:\Bella_Bootcamp\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.deps.json
+D:\Bella_Bootcamp\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.runtimeconfig.json
+D:\Bella_Bootcamp\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.dll
+D:\Bella_Bootcamp\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.pdb
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.dll
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\refint\TaskWithReturnDemo.dll
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.pdb
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\TaskWithReturnDemo\obj\Debug\net8.0\ref\TaskWithReturnDemo.dll

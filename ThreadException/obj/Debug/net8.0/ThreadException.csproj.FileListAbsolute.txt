@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\ThreadException\bin\Debug\net8.0\ThreadException.exe
+D:\Bella_Bootcamp\ThreadException\bin\Debug\net8.0\ThreadException.deps.json
+D:\Bella_Bootcamp\ThreadException\bin\Debug\net8.0\ThreadException.runtimeconfig.json
+D:\Bella_Bootcamp\ThreadException\bin\Debug\net8.0\ThreadException.dll
+D:\Bella_Bootcamp\ThreadException\bin\Debug\net8.0\ThreadException.pdb
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\ThreadException.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\ThreadException.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\ThreadException.AssemblyInfo.cs
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\ThreadException.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\ThreadException.sourcelink.json
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\ThreadException.dll
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\refint\ThreadException.dll
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\ThreadException.pdb
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\ThreadException.genruntimeconfig.cache
+D:\Bella_Bootcamp\ThreadException\obj\Debug\net8.0\ref\ThreadException.dll

@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\RaceConditionDemo\bin\Debug\net8.0\RaceConditionDemo.exe
+D:\Bella_Bootcamp\RaceConditionDemo\bin\Debug\net8.0\RaceConditionDemo.deps.json
+D:\Bella_Bootcamp\RaceConditionDemo\bin\Debug\net8.0\RaceConditionDemo.runtimeconfig.json
+D:\Bella_Bootcamp\RaceConditionDemo\bin\Debug\net8.0\RaceConditionDemo.dll
+D:\Bella_Bootcamp\RaceConditionDemo\bin\Debug\net8.0\RaceConditionDemo.pdb
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\RaceConditionDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\RaceConditionDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\RaceConditionDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\RaceConditionDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\RaceConditionDemo.sourcelink.json
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\RaceConditionDemo.dll
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\refint\RaceConditionDemo.dll
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\RaceConditionDemo.pdb
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\RaceConditionDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\RaceConditionDemo\obj\Debug\net8.0\ref\RaceConditionDemo.dll

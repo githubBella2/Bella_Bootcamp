@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\TaskException\bin\Debug\net8.0\TaskException.exe
+D:\Bella_Bootcamp\TaskException\bin\Debug\net8.0\TaskException.deps.json
+D:\Bella_Bootcamp\TaskException\bin\Debug\net8.0\TaskException.runtimeconfig.json
+D:\Bella_Bootcamp\TaskException\bin\Debug\net8.0\TaskException.dll
+D:\Bella_Bootcamp\TaskException\bin\Debug\net8.0\TaskException.pdb
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\TaskException.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\TaskException.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\TaskException.AssemblyInfo.cs
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\TaskException.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\TaskException.sourcelink.json
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\TaskException.dll
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\refint\TaskException.dll
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\TaskException.pdb
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\TaskException.genruntimeconfig.cache
+D:\Bella_Bootcamp\TaskException\obj\Debug\net8.0\ref\TaskException.dll
