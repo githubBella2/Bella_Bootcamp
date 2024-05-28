@@ -1,0 +1,15 @@
+E:\Bootcamp\SemaphoreCoba\bin\Debug\net8.0\SemaphoreCoba.exe
+E:\Bootcamp\SemaphoreCoba\bin\Debug\net8.0\SemaphoreCoba.deps.json
+E:\Bootcamp\SemaphoreCoba\bin\Debug\net8.0\SemaphoreCoba.runtimeconfig.json
+E:\Bootcamp\SemaphoreCoba\bin\Debug\net8.0\SemaphoreCoba.dll
+E:\Bootcamp\SemaphoreCoba\bin\Debug\net8.0\SemaphoreCoba.pdb
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\SemaphoreCoba.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\SemaphoreCoba.AssemblyInfoInputs.cache
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\SemaphoreCoba.AssemblyInfo.cs
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\SemaphoreCoba.csproj.CoreCompileInputs.cache
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\SemaphoreCoba.sourcelink.json
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\SemaphoreCoba.dll
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\refint\SemaphoreCoba.dll
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\SemaphoreCoba.pdb
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\SemaphoreCoba.genruntimeconfig.cache
+E:\Bootcamp\SemaphoreCoba\obj\Debug\net8.0\ref\SemaphoreCoba.dll

@@ -1,0 +1,42 @@
+SEMAPHORE
+memberikan batasan resource saat diakses oleh thread secara bersamaan.
+-Dasar semaphore: Semaphore Count, Wait (utk masuki semaphore) & release (utk keluar).
+-(2,2) -> initialCout, MaximumCount
+    Saat semaphore pertama kali dibuat, 
+    dua thread dapat langsung memasuki semaphore tanpa harus menunggu.
+    Jika lebih dari dua thread mencoba mengakses metode pada waktu yang sama,
+    mereka akan menunggu hingga salah satu dari dua thread yang sedang di dalam keluar
+    (dengan memanggil Release), kemudian thread berikutnya dapat masuk.
+Demonstrasi Batasan Akses:
+ Penggunaan semaphore dengan nilai (3, 3) 
+ menunjukkan bagaimana hanya tiga thread yang dapat mengakses 
+ resource pada satu waktu, 
+ sementara thread lainnya harus menunggu hingga ada slot yang tersedia.
+
+Penggunaan Semaphore:
+    Akses ke database koneksi yang terbatas. 
+    Batasan jumlah thread yang dapat mengakses file atau perangkat 
+    jaringan pada waktu yang sama.
+    Mengelola thread pool yang memproses tugas dengan batasan tertentu.
+
+
+SEMAPHORESLIM
+1.API dan Fungsionalitas:
+SemaphoreSlim adalah versi yang lebih ringan dan lebih cepat dari Semaphore.
+Dirancang untuk sinkronisasi dalam proses tunggal (intra-process synchronization).
+
+2.Kinerja:
+SemaphoreSlim memiliki kinerja yang lebih baik dibandingkan Semaphore dalam 
+skenario di mana sering ada penguncian dan pembebasan karena 
+penggunaan yang lebih ringan dan efisien.
+Menggunakan mekanisme sinkronisasi berbasis user-mode yang lebih cepat.
+
+3.Interop:
+SemaphoreSlim tidak mendukung penguncian lintas proses.
+Lebih cocok untuk skenario sinkronisasi dalam satu aplikasi atau proses.
+
+4.Metode:
+Wait, WaitAsync (untuk operasi asinkron), Release.
+Metode asinkron adalah salah satu keuntungan utama,
+memungkinkan penggunaan yang lebih efisien dalam aplikasi 
+yang memanfaatkan asinkronitas.
