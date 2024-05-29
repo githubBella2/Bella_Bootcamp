@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\DataContractDemo\bin\Debug\net8.0\DataContractDemo.exe
+D:\Bella_Bootcamp\DataContractDemo\bin\Debug\net8.0\DataContractDemo.deps.json
+D:\Bella_Bootcamp\DataContractDemo\bin\Debug\net8.0\DataContractDemo.runtimeconfig.json
+D:\Bella_Bootcamp\DataContractDemo\bin\Debug\net8.0\DataContractDemo.dll
+D:\Bella_Bootcamp\DataContractDemo\bin\Debug\net8.0\DataContractDemo.pdb
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\DataContractDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\DataContractDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\DataContractDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\DataContractDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\DataContractDemo.sourcelink.json
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\DataContractDemo.dll
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\refint\DataContractDemo.dll
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\DataContractDemo.pdb
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\DataContractDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\DataContractDemo\obj\Debug\net8.0\ref\DataContractDemo.dll
