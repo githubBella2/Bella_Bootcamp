@@ -40,3 +40,54 @@ Wait, WaitAsync (untuk operasi asinkron), Release.
 Metode asinkron adalah salah satu keuntungan utama,
 memungkinkan penggunaan yang lebih efisien dalam aplikasi 
 yang memanfaatkan asinkronitas.
+----------------------------------------------------------------------------------------------------
+Dict Player <IPlayer,IPlayer> ?
+main program :bikin objek dari GC
+
+Thread synchronization:
+Lock 
+Monitor Enter
+Signaling (Auto reset Event)
+Semaphore
+
+Locking: membatasi resource diakses 1  thread,
+Semaphore: bisa lebih dari 1 tapi maksimal 3
+Sslim : lebih ringan tp gak bisa antar proses 
+
+
+STREAM:
+aliran byte yang masuk dan keluar dari program 
+Kenapa byte? kalau pakai bit terlalubanyak proses yg dibutuhkan
+
+
+backing store stream: bisa diotak atik, berguna
+-Filestream
+-Memorystream
+-Networkstream
+
+decorator stream : optional, supaya lebih aman
+-crypto: enkripsi, hashing
+-buffer: bukan stream, hanya membungkus stream yang sudah ada supaya
+lebih efisien proses pemnacaannya
+(ditahan dulu sampai kapasitas terpenuhi lalu dikirim -spt IDM, torrent)
+proses kirimnya serialization, ptoses terimanya desetialization.
+
+SERIALIZATION 
+JSON, XML
+untuk menyimpan data
+
+DATA CONTRACT
+
+
+
+//GC, mengandung semua metode yang UI nya bukan kita, dan tidak ada yg perlu diubah. sudah oke
+//Interface publik
+
+ASSEMBLY
+-DLL
+-EXE
+
+Reference:
+-add projek lain yang satu assembly 
+
+folder interface disendirikan

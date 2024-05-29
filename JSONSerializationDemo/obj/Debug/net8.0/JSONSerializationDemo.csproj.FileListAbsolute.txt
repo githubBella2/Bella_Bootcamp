@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\JSONSerializationDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\JSONSerializationDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\JSONSerializationDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\JSONSerializationDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\JSONSerializationDemo.sourcelink.json
+D:\Bella_Bootcamp\JSONSerializationDemo\bin\Debug\net8.0\JSONSerializationDemo.exe
+D:\Bella_Bootcamp\JSONSerializationDemo\bin\Debug\net8.0\JSONSerializationDemo.deps.json
+D:\Bella_Bootcamp\JSONSerializationDemo\bin\Debug\net8.0\JSONSerializationDemo.runtimeconfig.json
+D:\Bella_Bootcamp\JSONSerializationDemo\bin\Debug\net8.0\JSONSerializationDemo.dll
+D:\Bella_Bootcamp\JSONSerializationDemo\bin\Debug\net8.0\JSONSerializationDemo.pdb
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\JSONSerializationDemo.dll
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\refint\JSONSerializationDemo.dll
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\JSONSerializationDemo.pdb
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\JSONSerializationDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\JSONSerializationDemo\obj\Debug\net8.0\ref\JSONSerializationDemo.dll

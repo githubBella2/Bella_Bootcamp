@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\SemaphoreDemo\bin\Debug\net8.0\SemaphoreDemo.exe
+D:\Bella_Bootcamp\SemaphoreDemo\bin\Debug\net8.0\SemaphoreDemo.deps.json
+D:\Bella_Bootcamp\SemaphoreDemo\bin\Debug\net8.0\SemaphoreDemo.runtimeconfig.json
+D:\Bella_Bootcamp\SemaphoreDemo\bin\Debug\net8.0\SemaphoreDemo.dll
+D:\Bella_Bootcamp\SemaphoreDemo\bin\Debug\net8.0\SemaphoreDemo.pdb
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\SemaphoreDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\SemaphoreDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\SemaphoreDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\SemaphoreDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\SemaphoreDemo.sourcelink.json
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\SemaphoreDemo.dll
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\refint\SemaphoreDemo.dll
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\SemaphoreDemo.pdb
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\SemaphoreDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\SemaphoreDemo\obj\Debug\net8.0\ref\SemaphoreDemo.dll

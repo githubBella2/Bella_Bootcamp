@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.exe
+D:\Bella_Bootcamp\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.deps.json
+D:\Bella_Bootcamp\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.runtimeconfig.json
+D:\Bella_Bootcamp\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.dll
+D:\Bella_Bootcamp\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.pdb
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.AssemblyInfo.cs
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.sourcelink.json
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.dll
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\refint\StreamWriterDemo.dll
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.pdb
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.genruntimeconfig.cache
+D:\Bella_Bootcamp\StreamWriterDemo\obj\Debug\net8.0\ref\StreamWriterDemo.dll

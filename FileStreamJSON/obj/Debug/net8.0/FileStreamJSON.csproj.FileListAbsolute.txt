@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\FileStreamJSON\bin\Debug\net8.0\FileStreamJSON.exe
+D:\Bella_Bootcamp\FileStreamJSON\bin\Debug\net8.0\FileStreamJSON.deps.json
+D:\Bella_Bootcamp\FileStreamJSON\bin\Debug\net8.0\FileStreamJSON.runtimeconfig.json
+D:\Bella_Bootcamp\FileStreamJSON\bin\Debug\net8.0\FileStreamJSON.dll
+D:\Bella_Bootcamp\FileStreamJSON\bin\Debug\net8.0\FileStreamJSON.pdb
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\FileStreamJSON.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\FileStreamJSON.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\FileStreamJSON.AssemblyInfo.cs
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\FileStreamJSON.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\FileStreamJSON.sourcelink.json
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\FileStreamJSON.dll
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\refint\FileStreamJSON.dll
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\FileStreamJSON.pdb
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\FileStreamJSON.genruntimeconfig.cache
+D:\Bella_Bootcamp\FileStreamJSON\obj\Debug\net8.0\ref\FileStreamJSON.dll
