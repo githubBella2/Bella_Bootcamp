@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SemaphoreCoba")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb669436eeb533b3a95bb58d8c6f7d4817895ba4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e1ce8cb4d4632e319c14dc7951bd9b2e94ac5ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("SemaphoreCoba")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SemaphoreCoba")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
