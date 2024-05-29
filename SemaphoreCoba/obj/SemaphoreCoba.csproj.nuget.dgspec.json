@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bella_Bootcamp\\SemaphoreCoba\\SemaphoreCoba.csproj": {}
+    "E:\\Bootcamp\\SemaphoreCoba\\SemaphoreCoba.csproj": {}
   },
   "projects": {
-    "D:\\Bella_Bootcamp\\SemaphoreCoba\\SemaphoreCoba.csproj": {
+    "E:\\Bootcamp\\SemaphoreCoba\\SemaphoreCoba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bella_Bootcamp\\SemaphoreCoba\\SemaphoreCoba.csproj",
+        "projectUniqueName": "E:\\Bootcamp\\SemaphoreCoba\\SemaphoreCoba.csproj",
         "projectName": "SemaphoreCoba",
-        "projectPath": "D:\\Bella_Bootcamp\\SemaphoreCoba\\SemaphoreCoba.csproj",
-        "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-        "outputPath": "D:\\Bella_Bootcamp\\SemaphoreCoba\\obj\\",
+        "projectPath": "E:\\Bootcamp\\SemaphoreCoba\\SemaphoreCoba.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Bootcamp\\SemaphoreCoba\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

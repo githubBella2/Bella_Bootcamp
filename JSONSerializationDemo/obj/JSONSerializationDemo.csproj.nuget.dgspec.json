@@ -1,25 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bella_Bootcamp\\JSONSerializationDemo\\JSONSerializationDemo.csproj": {}
+    "E:\\Bootcamp\\JSONSerializationDemo\\JSONSerializationDemo.csproj": {}
   },
   "projects": {
-    "D:\\Bella_Bootcamp\\JSONSerializationDemo\\JSONSerializationDemo.csproj": {
+    "E:\\Bootcamp\\JSONSerializationDemo\\JSONSerializationDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bella_Bootcamp\\JSONSerializationDemo\\JSONSerializationDemo.csproj",
+        "projectUniqueName": "E:\\Bootcamp\\JSONSerializationDemo\\JSONSerializationDemo.csproj",
         "projectName": "JSONSerializationDemo",
-        "projectPath": "D:\\Bella_Bootcamp\\JSONSerializationDemo\\JSONSerializationDemo.csproj",
-        "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-        "outputPath": "D:\\Bella_Bootcamp\\JSONSerializationDemo\\obj\\",
+        "projectPath": "E:\\Bootcamp\\JSONSerializationDemo\\JSONSerializationDemo.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Bootcamp\\JSONSerializationDemo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
