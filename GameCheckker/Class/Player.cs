@@ -6,7 +6,12 @@ public class Player : IPlayer
 {
     public string Username { get; private set; }
     public PieceType PieceType { get; private set; }
+    // public Position position{get;private set;}
+    // public Dictionary<IPlayer, IPiece> pointPlayer = new Dictionary<IPlayer, IPiece>();
 
+    // public Dictionary<string, List<int>> moveCoordinate = new Dictionary<string, List<int>>();
+
+    // public Dictionary<string, Position> positionsPlayer = new Dictionary<string, Position>();
     public Player(string username, PieceType pieceType)
     {
         Username = username;
@@ -29,12 +34,25 @@ public class Player : IPlayer
         System.Console.WriteLine("End Y:");
         int endY = int.Parse(Console.ReadLine());
 
-        if(board.MovePiece(startX,startY,endX,endY,PieceType)){
+        if (board.MovePiece(startX, startY, endX, endY, PieceType))
+        {
+            // moveCoordinate.Add(Username, new List<int> { endX, endY });
+            // foreach (var item in moveCoordinate)
+            // {
+            //     System.Console.WriteLine($"Langkah {Username}: {item.Value[0]},{item.Value[1]}");
+
+            // }
             return true;
         }
-        else{
+        else
+        {
             System.Console.WriteLine("Invalid move");
             return false;
         }
     }
+
+    // public void  AddPointPlayer(){
+
+    // }
+
 }

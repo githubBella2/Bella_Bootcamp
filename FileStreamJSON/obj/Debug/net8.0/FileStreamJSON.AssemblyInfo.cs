@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileStreamJSON")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21dc7780f581dedd4d9a61d97e9fabf19831b113")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95d9c18f49fab18c431793a73146c6f21d35e3b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileStreamJSON")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileStreamJSON")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

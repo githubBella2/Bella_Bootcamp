@@ -1,4 +1,5 @@
 using System.Drawing;
+using System.Security.Cryptography.X509Certificates;
 using GameCheckker.Interface;
 
 namespace GameCheckker.Class;
@@ -7,6 +8,8 @@ public class Board : IBoard
 {
     private const int _size = 8;
     private IPiece[,] grid;
+    // private IPlayer player;
+    // Dictionary<IPlayer,IPiece> pointPlayer = new Dictionary<IPlayer, IPiece>();
 
     public Board()
     {
@@ -47,14 +50,18 @@ public class Board : IBoard
     public void DisplayBoard()
     {
         System.Console.WriteLine("          ");
+
         for (int x = 0; x < _size; x++)
         {
-            Console.Write(" " + x);
+            Console.Write("  " + x);
         }
         Console.WriteLine();
 
         for (int y = 0; y < _size; y++)
         {
+
+            // if (y > 0)
+            // {
             Console.Write(y + " ");
             for (int x = 0; x < _size; x++)
             {
@@ -65,10 +72,11 @@ public class Board : IBoard
                     PieceType.Black => 'B',
                     _ => '|'
                 };
-                Console.Write(symbol + " ");
+                Console.Write(symbol + "  ");
             }
             Console.WriteLine();
         }
+        // }
     }
     public bool MovePiece(int startX, int startY, int endX, int endY, PieceType playerType)
     {
@@ -82,16 +90,7 @@ public class Board : IBoard
 
         int dx = endX - startX;
         int dy = endY - startY;
-        // Validate move direction
-        // if (playerType == PieceType.White && dy >= 0)
-        // {
-        //     return false; // Red pieces must move down
-        // }
 
-        // if (playerType == PieceType.Black && dy <= 0)
-        // {
-        //     return false; // Black pieces must move up
-        // }
 
         //memeriksa apakah gerakan valid
         if (Math.Abs(dx) == 1 && Math.Abs(dy) == 1)
@@ -106,6 +105,7 @@ public class Board : IBoard
             // Memindahkan ke posisi akhir
             grid[endX, endY] = piece;
             grid[startX, startY] = new Piece(PieceType.Empty);
+
             return true;
         }
 
