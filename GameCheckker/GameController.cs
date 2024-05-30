@@ -12,6 +12,8 @@ public class GameController
     private IPlayer _currentPlayer;
     // Action<int, int> Addition2 = AddNumbers2;
     //     Addition2(2, 3);
+    private Dictionary<string, List<(List<int> start, List<int> end)>> playerMove;
+    private Dictionary<IPlayer, List<(List<Coordinate> start, List<Coordinate> end)>> playerMoves;
 
     public GameController(string username1, string username2)
     {
@@ -21,7 +23,7 @@ public class GameController
         _currentPlayer = _player1;
 
         //player, piecenya dimana aja dictionary. 
-
+        // playerMoves = new Dictionary<IPlayer, List<(List<Coordinate> start, List<Coordinate> end)>>();
     }
 
     public void StartGame()
@@ -62,6 +64,27 @@ public class GameController
         }
         // System.Console.WriteLine(_currentPlayer);
         // return _currentPlayer;
-
     }
+
+
+    // public void RecordMove(IPlayer playerName, List<Coordinate> start, List<Coordinate> end)
+    // {
+    //     if (!playerMoves.ContainsKey(playerName))
+    //     {
+    //         playerMoves[playerName] = new List<(List<Coordinate> start, List<Coordinate> end)>();
+    //     }
+    //     playerMoves[playerName].Add((start, end));
+    // }
+
+    // public void DisplayPlayerMoves()
+    // {
+    //     foreach (var playerMove in playerMoves)
+    //     {
+    //         Console.WriteLine($"Moves by {playerMove.Key}:");
+    //         foreach (var move in playerMove.Value)
+    //         {
+    //             Console.WriteLine($"From: ({move.start[0].X}, {move.start[0].Y}) To: ({move.end[0].X}, {move.end[0].Y})");
+    //         }
+    //     }
+    // }
 }

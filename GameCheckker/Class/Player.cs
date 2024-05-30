@@ -12,6 +12,9 @@ public class Player : IPlayer
     // public Dictionary<string, List<int>> moveCoordinate = new Dictionary<string, List<int>>();
 
     // public Dictionary<string, Position> positionsPlayer = new Dictionary<string, Position>();
+    List<Coordinate> start;
+    List<Coordinate> end;
+
     public Player(string username, PieceType pieceType)
     {
         Username = username;
@@ -34,7 +37,11 @@ public class Player : IPlayer
         System.Console.WriteLine("End Y:");
         int endY = int.Parse(Console.ReadLine());
 
-        if (board.MovePiece(startX, startY, endX, endY, PieceType))
+        Coordinate start = new Coordinate(startX, startY);
+        Coordinate end = new Coordinate(endX, endY);
+
+        if (board.MovePiece(start,end, PieceType))
+        // if (board.MovePiece( start, end, PieceType, Username))
         {
             // moveCoordinate.Add(Username, new List<int> { endX, endY });
             // foreach (var item in moveCoordinate)
