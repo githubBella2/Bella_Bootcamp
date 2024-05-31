@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Bella_Bootcamp\\GameCheckker\\GameCheckker.csproj": {}
+    "D:\\Bella_Bootcamp\\GameCheckker\\GameCheckker.csproj": {}
   },
   "projects": {
-    "d:\\Bella_Bootcamp\\GameCheckker\\GameCheckker.csproj": {
+    "D:\\Bella_Bootcamp\\GameCheckker\\GameCheckker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Bella_Bootcamp\\GameCheckker\\GameCheckker.csproj",
+        "projectUniqueName": "D:\\Bella_Bootcamp\\GameCheckker\\GameCheckker.csproj",
         "projectName": "GameCheckker",
-        "projectPath": "d:\\Bella_Bootcamp\\GameCheckker\\GameCheckker.csproj",
+        "projectPath": "D:\\Bella_Bootcamp\\GameCheckker\\GameCheckker.csproj",
         "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-        "outputPath": "d:\\Bella_Bootcamp\\GameCheckker\\obj\\",
+        "outputPath": "D:\\Bella_Bootcamp\\GameCheckker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
