@@ -7,5 +7,5 @@ public interface IPlayer
 {
     string Username {get;}
     PieceType PieceType {get;}
-    bool MakeMove(IBoard board);
+    bool MakeMove(IBoard board,Coordinate start, Coordinate end);
 }

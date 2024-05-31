@@ -8,16 +8,18 @@ public class Board : IBoard
 {
     private const int _size = 8;
     private IPiece[,] grid;
-    // private IPlayer player;
-    Dictionary<IPlayer, IPiece> pointPlayer = new Dictionary<IPlayer, IPiece>();
-    private Dictionary<Coordinate, (PieceType, PieceState)> piecePositions;
-    private Dictionary<IPlayer, List<Coordinate>> playerPiecePosition;
-    private GameController gameController;
-
+    // GameController gameController = new GameController();
+    public List<Coordinate> listCoordinateMove;
+    public Dictionary<IPlayer, List<Coordinate>> movePlayer;
     public Board()
     {
+        #region CATATAN
+        // GameController gameController = new GameController();
+        //field / method utk board saja. Jadi current player dll dipanggil di gc.
+        // GC Tidak bisa dipanggil di kelas panggil. 
+        // method savemove pindah ke GC
+        #endregion
         grid = new IPiece[_size, _size];
-        playerPiecePosition = new Dictionary<IPlayer, List<Coordinate>>();
         InitBoard();
     }
     private void InitBoard()
@@ -66,12 +68,6 @@ public class Board : IBoard
             for (int x = 0; x < _size; x++)
             {
                 IPiece piece = grid[x, y];
-                // char symbol = piece.Type switch
-                // {
-                //     PieceType.White => 'W',
-                //     PieceType.Black => 'B',
-                //     _ => '|'
-                // };
                 char symbol;
                 if (piece.Type == PieceType.White)
                 {
@@ -79,9 +75,11 @@ public class Board : IBoard
                 }
                 else if (piece.Type == PieceType.Black)
                 {
-                    symbol = 'R';
-                }else{
-                    symbol='|';
+                    symbol = 'B';
+                }
+                else
+                {
+                    symbol = '|';
                 }
                 Console.Write(symbol + "  ");
             }
@@ -89,22 +87,21 @@ public class Board : IBoard
         }
     }
     public bool MovePiece(Coordinate start, Coordinate end, PieceType playerType)
-    // public bool MovePiece(Coordinate start, Coordinate end, PieceType playerType)
-    // public bool MovePiece(List<Coordinate> start, List<Coordinate> end, PieceType playerType, IPlayer username)
-    // public bool MovePiece(List<Coordinate> start, List<Coordinate> end, PieceType playerType, String username)
-
     {
+        // username = gameController.currentPlayer;
+        // // save coordinat ke list
+        // SaveListCoordinate(start, end);
+        // //get coordinate list
+        // var getListCoordinate = GetListCoordinate();
+        // // save to dictionary isinya player dan value listcoord
+        // SaveDataPlayerMove(username, getListCoordinate);
+
+
+
         IPiece piece = grid[start.X, start.Y];// get piece at the starting position
-        // IPiece piece = grid[start[0].X, start[0].Y];// get piece at the starting position
-        // if (piece == null || piece.Type == PieceType.Empty)
-        // // if (piece == null || piece.Type != playerType)
-        // {
-        //     return false;
-        // }
 
         int dx = end.X - start.X;
         int dy = end.Y - start.Y;
-
 
         //memeriksa apakah gerakan valid
         if (Math.Abs(dx) == 1 && Math.Abs(dy) == 1)
@@ -121,30 +118,6 @@ public class Board : IBoard
             grid[start.X, start.Y] = new Piece(PieceType.Empty);
             return true;
 
-
-            // ---
-            // if (grid[end[0].X, end[0].Y].Type == PieceType.Empty)
-            // {
-            //     grid[end[0].X, end[0].Y] = piece;
-            //     grid[start[0].X, start[0].Y] = new Piece(PieceType.Empty);
-
-            //     UpdatePiecePosition(username, start[0], end[0], playerType);
-
-            //     if (playerType == PieceType.White && end[0].Y == 0)
-            //     {
-            //         piece.State = PieceState.King;
-            //     }
-            //     else if (playerType == PieceType.Black && end[0].Y == _size - 1)
-            //     {
-            //         piece.State = PieceState.King;
-            //     }
-
-            //     return true;
-            // }
-            // else
-            // {
-            //     return false;
-            // }
         }
 
         // 2
@@ -161,6 +134,7 @@ public class Board : IBoard
                 grid[end.X, end.Y] = piece;
                 grid[start.X, start.Y] = new Piece(PieceType.Empty);
 
+                #region SAMPAH
                 // --
                 // UpdatePiecePosition(username, start[0], end[0], playerType);
                 // RemovePiecePosition(username, new Coordinate(captureX, captureY));
@@ -172,38 +146,34 @@ public class Board : IBoard
                 // {
                 //     piece.State = PieceState.King;
                 // }
+                #endregion
                 return true;
             }
         }
         return false;
     }
 
-
-
-
-    // private void UpdatePiecePosition(IPlayer playerName, Coordinate start, Coordinate end, PieceType playerType)
+    // #region METHOD LIST-DITCIONARY
+    // public void SaveListCoordinate(Coordinate x, Coordinate y)
     // {
-    //     if (!playerPiecePosition.ContainsKey(playerName))
-    //     {
-    //         playerPiecePosition[playerName] = new List<Coordinate>();
-    //     }
-
-    //     playerPiecePosition[playerName].Remove(start);
-    //     playerPiecePosition[playerName].Add(end);
-
-    //     piecePositions.Remove(start);
-    //     piecePositions[end] = (playerType, grid[end.X, end.Y].State);
+    //     listCoordinateMove.Add(x);
+    //     listCoordinateMove.Add(y);
     // }
 
-    // private void RemovePiecePosition(IPlayer playerName, Coordinate position)
+    // public List<Coordinate> GetListCoordinate()
     // {
-    //     if (playerPiecePosition.ContainsKey(playerName))
-    //     {
-    //         playerPiecePosition[playerName].Remove(position);
-    //     }
-    //     piecePositions.Remove(position);
+    //     return listCoordinateMove;
     // }
 
+    // public void SaveDataPlayerMove(IPlayer player, List<Coordinate> coordinates)
+    // {
+    //     movePlayer.Add(player, listCoordinateMove);
+    // }
 
+    // public Dictionary<IPlayer, List<Coordinate>> GetDataPlayerMove()
+    // {
+    //     return movePlayer;
+    // }
+    // #endregion
 
 }
