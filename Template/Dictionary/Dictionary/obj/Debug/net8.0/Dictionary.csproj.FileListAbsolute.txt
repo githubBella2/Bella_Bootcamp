@@ -1,0 +1,29 @@
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.exe
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.deps.json
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.runtimeconfig.json
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.dll
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.pdb
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.AssemblyInfoInputs.cache
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.AssemblyInfo.cs
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.dll
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\obj\Debug\net8.0\refint\Dictionary.dll
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.pdb
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.genruntimeconfig.cache
+C:\Users\Batch 10\Documents\FLMX_Bootcamp_Trial\Dictionary\Dictionary\obj\Debug\net8.0\ref\Dictionary.dll
+E:\Bootcamp\Template\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.exe
+E:\Bootcamp\Template\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.deps.json
+E:\Bootcamp\Template\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.runtimeconfig.json
+E:\Bootcamp\Template\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.dll
+E:\Bootcamp\Template\Dictionary\Dictionary\bin\Debug\net8.0\Dictionary.pdb
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.AssemblyInfoInputs.cache
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.AssemblyInfo.cs
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.csproj.CoreCompileInputs.cache
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.sourcelink.json
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.dll
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\refint\Dictionary.dll
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.pdb
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\Dictionary.genruntimeconfig.cache
+E:\Bootcamp\Template\Dictionary\Dictionary\obj\Debug\net8.0\ref\Dictionary.dll

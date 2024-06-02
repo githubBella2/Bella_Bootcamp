@@ -11,6 +11,7 @@ public class Board : IBoard
     // GameController gameController = new GameController();
     public List<Coordinate> listCoordinateMove;
     public Dictionary<IPlayer, List<Coordinate>> movePlayer;
+    private int maxScoreToWin = 12;
     public Board()
     {
         #region CATATAN
@@ -86,18 +87,8 @@ public class Board : IBoard
             Console.WriteLine();
         }
     }
-    public bool MovePiece(Coordinate start, Coordinate end, PieceType playerType)
+    public bool MovePiece(Coordinate start, Coordinate end, PieceType playerType, Player currentPlayer)
     {
-        // username = gameController.currentPlayer;
-        // // save coordinat ke list
-        // SaveListCoordinate(start, end);
-        // //get coordinate list
-        // var getListCoordinate = GetListCoordinate();
-        // // save to dictionary isinya player dan value listcoord
-        // SaveDataPlayerMove(username, getListCoordinate);
-
-
-
         IPiece piece = grid[start.X, start.Y];// get piece at the starting position
 
         int dx = end.X - start.X;
@@ -147,33 +138,12 @@ public class Board : IBoard
                 //     piece.State = PieceState.King;
                 // }
                 #endregion
+                currentPlayer.AddScore(1);
+               
                 return true;
             }
         }
         return false;
     }
-
-    // #region METHOD LIST-DITCIONARY
-    // public void SaveListCoordinate(Coordinate x, Coordinate y)
-    // {
-    //     listCoordinateMove.Add(x);
-    //     listCoordinateMove.Add(y);
-    // }
-
-    // public List<Coordinate> GetListCoordinate()
-    // {
-    //     return listCoordinateMove;
-    // }
-
-    // public void SaveDataPlayerMove(IPlayer player, List<Coordinate> coordinates)
-    // {
-    //     movePlayer.Add(player, listCoordinateMove);
-    // }
-
-    // public Dictionary<IPlayer, List<Coordinate>> GetDataPlayerMove()
-    // {
-    //     return movePlayer;
-    // }
-    // #endregion
 
 }

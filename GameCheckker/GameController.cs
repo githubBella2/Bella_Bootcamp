@@ -12,17 +12,19 @@ public class GameController
     private IPlayer _player2;
     public IPlayer currentPlayer;
     List<IPlayer> players;
-    public List<Coordinate> listCoordinateMove;
-    public Dictionary<IPlayer, List<Coordinate>> movePlayer;
+    public List<Coordinate> listCoordinateMove { get; set; }
+    public Dictionary<IPlayer, List<Coordinate>> movePlayerDict;
     public PieceType pieceType;
+    private bool isRunning = false;
 
-
+    private int maxScoreToWin = 3;
     // public GameController(string username1, string username2)
     public GameController()
     {
         board = new Board();
         players = new List<IPlayer>();
-
+        listCoordinateMove = new List<Coordinate>();
+        movePlayerDict = new Dictionary<IPlayer, List<Coordinate>>();
         StartGame();
 
         #region LAWAS
@@ -54,63 +56,81 @@ public class GameController
             System.Console.WriteLine("List of Player:");
             System.Console.WriteLine(item.Username);
         }
-        // ----------------------------------------
-        // getdata dictionary
-        // var dataMovePlayer = _boardClass.GetDataPlayerMove();
-        // // printout data movenya
-        // foreach (KeyValuePair<IPlayer, List<Coordinate>> item in dataMovePlayer)
-        // {
-        //     var coordinate = item.Value;
-        //     foreach (var i in coordinate)
-        //     {
-        //         System.Console.WriteLine($"{item.Key}: ({i.X}, {i.Y}) ");
+        isRunning = true;
+        while (isRunning)
+        {
 
-        //     }
-        // }
-        // System.Console.WriteLine($"List {GetPlayerData(_player1).Username} ");
-        // while (true)
-        // {
-            
             board.DisplayBoard();
 
+            int startX = 0;
+            int startY = 0;
+            int endX = 0;
+            int endY = 0;
             System.Console.WriteLine($"{currentPlayer.Username} (Player {currentPlayer.PieceType}), enter your move:");
 
             System.Console.WriteLine("Start X:");
-            int startX = int.Parse(Console.ReadLine());
+            startX = int.Parse(Console.ReadLine());
 
             System.Console.WriteLine("Start Y:");
-            int startY = int.Parse(Console.ReadLine());
+            startY = int.Parse(Console.ReadLine());
 
             System.Console.WriteLine("End X:");
-            int endX = int.Parse(Console.ReadLine());
+            endX = int.Parse(Console.ReadLine());
 
             System.Console.WriteLine("End Y:");
-            int endY = int.Parse(Console.ReadLine());
+            endY = int.Parse(Console.ReadLine());
 
-            Coordinate start = new Coordinate(startX, startY);
-            Coordinate end = new Coordinate(endX, endY);
+            Coordinate startCoord = new(startX, startY);
+            Coordinate endCoord = new(endX, endY);
 
-        // save coordinat ke list
-        SaveListCoordinate(start, end);
-        //get coordinate list
-        var getListCoordinate = GetListCoordinate();
-        // save to dictionary isinya player dan value listcoord
-        SaveDataPlayerMove(currentPlayer, getListCoordinate);
-        var getDataPlayerMove = GetDataPlayerMove();
-        foreach (KeyValuePair<IPlayer,List<Coordinate>> item in getDataPlayerMove )
-        {
-            var valueCoord=item.Value;
-            foreach(var c in valueCoord){
-                System.Console.WriteLine($"{item.Key}: ({c.X}, {c.Y})");
+
+            // save coordinat ke list
+            SaveListCoordinate(startCoord, endCoord);
+            //get coordinate list
+            var getListCoordinate = GetListCoordinate();
+            // save to dictionary isinya player dan value listcoord
+            var getDataPlayerMove = GetDataPlayerMove();
+            if (!getDataPlayerMove.ContainsKey(currentPlayer)) // Periksa apakah currentPlayer belum ada dalam kamus
+            {
+                SaveDataPlayerMove(currentPlayer, getListCoordinate);
             }
-        }
+            else
+            {
+                Coordinate coordinateNew = new(endX, endY);
+                SaveNewCoordinateToDict(currentPlayer, coordinateNew);
+            }
 
-            while (!currentPlayer.MakeMove(board, start,end))
+            foreach (KeyValuePair<IPlayer, List<Coordinate>> item in getDataPlayerMove)
+            {
+                Console.Clear();
+                System.Console.WriteLine("=============================");
+                var coordinates = item.Value;
+                int numberOfPlayers = getDataPlayerMove.Keys.Count;
+
+                foreach (var kvp in getDataPlayerMove)
+                {
+                    var playerName = kvp.Key.Username;
+                    var moves = kvp.Value;
+                    foreach (var move in moves)
+                    {
+                        // Console.Clear();
+                        Console.WriteLine($"{kvp.Key.Username}: ({move.X}, {move.Y})");
+                    }
+                }
+
+                System.Console.WriteLine("=============================");
+            }
+
+            while (!currentPlayer.MakeMove(board, startCoord, endCoord))
             {
                 System.Console.WriteLine("Invalid, try again");
             }
+
+
             SwitchPlayer();
-        // }
+            PrintScore();
+            CheckWinner();
+        }
     }
 
     private void SwitchPlayer()
@@ -130,6 +150,7 @@ public class GameController
         // return currentPlayer;
     }
 
+
     public void SetPlayerData(IPlayer user1, IPlayer user2)
     {
         this.players.Add(user1);
@@ -144,8 +165,27 @@ public class GameController
     {
         return this.players;
     }
+    public void PrintScore()
+    {
+        foreach (Player player in players)
+        {
+            System.Console.WriteLine($"Score {player.Username}= {player.Score} ");
+        }
+    }
 
-    
+    public void CheckWinner()
+    {
+
+        foreach (Player player in players)
+        {
+            if (player.Score >= maxScoreToWin)
+            {
+                Console.WriteLine($"Player {player.Username} wins! with score = {player.Score}");
+                isRunning = false; 
+                break; // Keluar dari loop foreach setelah menemukan pemenang
+            }
+        }
+    }
     #region METHOD LIST-DITCIONARY
     public void SaveListCoordinate(Coordinate x, Coordinate y)
     {
@@ -160,13 +200,20 @@ public class GameController
 
     public void SaveDataPlayerMove(IPlayer player, List<Coordinate> coordinates)
     {
-        movePlayer.Add(player, listCoordinateMove);
+        movePlayerDict.Add(player, coordinates);
     }
 
     public Dictionary<IPlayer, List<Coordinate>> GetDataPlayerMove()
     {
-        return movePlayer;
+        return movePlayerDict;
     }
+
+    public void SaveNewCoordinateToDict(IPlayer player, Coordinate coordinate)
+    {
+        this.movePlayerDict[player].Add(coordinate);
+    }
+
+
     #endregion
 
 

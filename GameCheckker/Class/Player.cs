@@ -6,18 +6,15 @@ public class Player : IPlayer
 {
     public string Username { get; private set; }
     public PieceType PieceType { get; private set; }
-    List<Coordinate> start;
-    List<Coordinate> end;
-    
-    public List<Coordinate> listCoordinateMove;
-    public Dictionary<IPlayer, List<Coordinate>> movePlayer;
+    public int Score { get; private set; }
     public Player(string username, PieceType pieceType)
     {
         Username = username;
         PieceType = pieceType;
+        Score = 0;
     }
 
-    public bool MakeMove(IBoard board,Coordinate start, Coordinate end)
+    public bool MakeMove(IBoard board, Coordinate start, Coordinate end)
     {
         // System.Console.WriteLine($"{Username} (Player {PieceType}), enter your move:");
 
@@ -35,10 +32,10 @@ public class Player : IPlayer
 
         // Coordinate start = new Coordinate(startX, startY);
         // Coordinate end = new Coordinate(endX, endY);
-       
 
 
-        if (board.MovePiece(start, end, PieceType))
+
+        if (board.MovePiece(start, end, PieceType,this))
         {
             return true;
         }
@@ -47,6 +44,11 @@ public class Player : IPlayer
             System.Console.WriteLine("Invalid move");
             return false;
         }
+    }
+
+    public void AddScore(int poin)
+    {
+        Score += poin;
     }
 
 
