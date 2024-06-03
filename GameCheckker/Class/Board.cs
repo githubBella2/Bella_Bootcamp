@@ -8,10 +8,9 @@ public class Board : IBoard
 {
     private const int _size = 8;
     private IPiece[,] grid;
-    // GameController gameController = new GameController();
-    public List<Coordinate> listCoordinateMove;
-    public Dictionary<IPlayer, List<Coordinate>> movePlayer;
-    private int maxScoreToWin = 12;
+    // public List<Coordinate> listCoordinateMove;
+    // public Dictionary<IPlayer, List<Coordinate>> movePlayer;
+   
     public Board()
     {
         #region CATATAN
@@ -91,7 +90,7 @@ public class Board : IBoard
     {
         IPiece piece = grid[start.X, start.Y];// get piece at the starting position
 
-        int dx = end.X - start.X;
+        int dx = end.X - start.X; 
         int dy = end.Y - start.Y;
 
         //memeriksa apakah gerakan valid
@@ -120,7 +119,7 @@ public class Board : IBoard
 
             if (capturedPiece != null && capturedPiece.Type != PieceType.Empty && capturedPiece.Type != piece.Type)
             {
-                // Menangkap bidak
+                // Menangkap 
                 grid[captureX, captureY] = new Piece(PieceType.Empty);
                 grid[end.X, end.Y] = piece;
                 grid[start.X, start.Y] = new Piece(PieceType.Empty);
