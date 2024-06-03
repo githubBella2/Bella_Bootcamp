@@ -88,7 +88,7 @@ public class Board : IBoard
     }
     public bool MovePiece(Coordinate start, Coordinate end, PieceType playerType, Player currentPlayer)
     {
-        IPiece piece = grid[start.X, start.Y];// get piece at the starting position
+        IPiece  piece = grid[start.X, start.Y];// get piece at the starting position
 
         int dx = end.X - start.X; 
         int dy = end.Y - start.Y;

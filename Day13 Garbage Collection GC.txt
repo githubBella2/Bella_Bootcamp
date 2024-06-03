@@ -79,6 +79,9 @@ gunanya untuk handle unmanaged resources.
 String.empty vs null
 null: gak ada alamatnya
 
+getinput.invoke ()
+getinput()
+
 
 
 
