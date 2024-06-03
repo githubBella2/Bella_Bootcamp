@@ -13,6 +13,10 @@ public class Player : IPlayer
         PieceType = pieceType;
         Score = 0;
     }
+    public Player(string username)
+    {
+        Username = username;
+    }
 
     public bool MakeMove(IBoard board, Coordinate start, Coordinate end)
     {

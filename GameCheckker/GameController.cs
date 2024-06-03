@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Security.Cryptography.X509Certificates;
 using GameCheckker.Class;
 using GameCheckker.Interface;
@@ -90,36 +91,54 @@ public class GameController
             var getListCoordinate = GetListCoordinate();
             // save to dictionary isinya player dan value listcoord
             var getDataPlayerMove = GetDataPlayerMove();
+
             if (!getDataPlayerMove.ContainsKey(currentPlayer)) // Periksa apakah currentPlayer belum ada dalam kamus
             {
+                // System.Console.WriteLine("oke");
                 SaveDataPlayerMove(currentPlayer, getListCoordinate);
+                // System.Console.WriteLine("oke2");
+
             }
-            else
+            else if (getDataPlayerMove.ContainsKey(currentPlayer))
             {
+                // System.Console.WriteLine("oke3");
                 Coordinate coordinateNew = new(endX, endY);
                 SaveNewCoordinateToDict(currentPlayer, coordinateNew);
+                // System.Console.WriteLine("oke4");
             }
 
+            // Console.Clear();
             foreach (KeyValuePair<IPlayer, List<Coordinate>> item in getDataPlayerMove)
             {
-                Console.Clear();
-                System.Console.WriteLine("=============================");
+                Trace.WriteLine("=============================");
                 var coordinates = item.Value;
                 int numberOfPlayers = getDataPlayerMove.Keys.Count;
-
+                // System.Console.WriteLine(item);
                 foreach (var kvp in getDataPlayerMove)
                 {
-                    var playerName = kvp.Key.Username;
+                    var playerName = kvp.Key.Username.Count();
                     var moves = kvp.Value;
+                    // Console.WriteLine($"{kvp.Key.Username}: ");
+
                     foreach (var move in moves)
                     {
                         // Console.Clear();
                         Console.WriteLine($"{kvp.Key.Username}: ({move.X}, {move.Y})");
-                    }
-                }
+                        // Console.WriteLine($"({move.X}, {move.Y})");
 
+                        // if (kvp.Key.Username == currentPlayer.Username)
+                        // {
+                        //     Console.WriteLine($"({move.X}, {move.Y})");
+
+                        // }
+
+                    }
+                    System.Console.WriteLine();
+                }
                 System.Console.WriteLine("=============================");
             }
+
+            
 
             while (!currentPlayer.MakeMove(board, startCoord, endCoord))
             {
@@ -181,7 +200,7 @@ public class GameController
             if (player.Score >= maxScoreToWin)
             {
                 Console.WriteLine($"Player {player.Username} wins! with score = {player.Score}");
-                isRunning = false; 
+                isRunning = false;
                 break; // Keluar dari loop foreach setelah menemukan pemenang
             }
         }
