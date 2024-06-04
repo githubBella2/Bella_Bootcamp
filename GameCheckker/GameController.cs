@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using GameCheckker.Class;
 using GameCheckker.Interface;
@@ -12,22 +13,30 @@ public class GameController
     private IPlayer _player1;
     private IPlayer _player2;
     public IPlayer currentPlayer;
-    List<IPlayer> players;
+    public List<IPlayer> players;
     public List<Coordinate> listCoordinateMove { get; set; }
     public Dictionary<IPlayer, List<Coordinate>> movePlayerDict;
     public PieceType pieceType;
     private bool isRunning = false;
 
+
+    public int startX = 0;
+    public int startY = 0;
+    public int endX = 0;
+    public int endY = 0;
+    public Coordinate startCoord;
+    public Coordinate endCoord;
+
     private int maxScoreToWin = 3;
     // public GameController(string username1, string username2)
+
+
     public GameController()
     {
         board = new Board();
         players = new List<IPlayer>();
         listCoordinateMove = new List<Coordinate>();
         movePlayerDict = new Dictionary<IPlayer, List<Coordinate>>();
-        StartGame();
-
         #region LAWAS
         // _player1 = new Player(username1, PieceType.White);
         // _player2 = new  Player(username2, PieceType.Black);
@@ -40,110 +49,116 @@ public class GameController
         #endregion
     }
 
+    #region UPDATE Method
+    public List<IPlayer> PrintListPlayer()
+    {
+        return players;
+    }
+    #endregion
+
     public void StartGame()
     {
-        System.Console.WriteLine("Enter username for Player 1 (White): ");
-        string username1 = Console.ReadLine();
-        System.Console.WriteLine("Enter username for Player 2 (Black): ");
-        string username2 = Console.ReadLine();
-        _player1 = new Player(username1, PieceType.White);
-        _player2 = new Player(username2, PieceType.Black);
-        currentPlayer = _player1;
-
         SetPlayerData(_player1, _player2);
         var printListData = GetPlayerData();
-        foreach (var item in printListData)
-        {
-            System.Console.WriteLine("List of Player:");
-            System.Console.WriteLine(item.Username);
-        }
+        // foreach (var item in printListData)
+        // {
+        //     System.Console.WriteLine("List of Player:");
+        //     System.Console.WriteLine(item.Username);
+        // }
+
+        #region UPDATE
+        PrintListPlayer();
+        #endregion
+
+
         isRunning = true;
         while (isRunning)
         {
 
             board.DisplayBoard();
 
-            int startX = 0;
-            int startY = 0;
-            int endX = 0;
-            int endY = 0;
-            System.Console.WriteLine($"{currentPlayer.Username} (Player {currentPlayer.PieceType}), enter your move:");
+            // int startX = 0;
+            // int startY = 0;
+            // int endX = 0;
+            // int endY = 0;
+            // System.Console.WriteLine($"{currentPlayer.Username} (Player {currentPlayer.PieceType}), enter your move:");
 
-            System.Console.WriteLine("Start X:");
-            startX = int.Parse(Console.ReadLine());
+            // System.Console.WriteLine("Start X:");
+            // startX = int.Parse(Console.ReadLine());
 
-            System.Console.WriteLine("Start Y:");
-            startY = int.Parse(Console.ReadLine());
+            // System.Console.WriteLine("Start Y:");
+            // startY = int.Parse(Console.ReadLine());
 
-            System.Console.WriteLine("End X:");
-            endX = int.Parse(Console.ReadLine());
+            // System.Console.WriteLine("End X:");
+            // endX = int.Parse(Console.ReadLine());
 
-            System.Console.WriteLine("End Y:");
-            endY = int.Parse(Console.ReadLine());
+            // System.Console.WriteLine("End Y:");
+            // endY = int.Parse(Console.ReadLine());
 
-            Coordinate startCoord = new(startX, startY);
-            Coordinate endCoord = new(endX, endY);
+            // Coordinate startCoord = new(startX, startY);
+            // Coordinate endCoord = new(endX, endY);
 
 
             // save coordinat ke list
-            SaveListCoordinate(startCoord, endCoord);
+            // SaveListCoordinate(startCoord, endCoord);
             //get coordinate list
-            var getListCoordinate = GetListCoordinate();
+            // var getListCoordinate = GetListCoordinate();
             // save to dictionary isinya player dan value listcoord
-            var getDataPlayerMove = GetDataPlayerMove();
+            // var getDataPlayerMove = GetDataPlayerMove();
 
-            if (!getDataPlayerMove.ContainsKey(currentPlayer)) // Periksa apakah currentPlayer belum ada dalam kamus
-            {
-                // System.Console.WriteLine("oke");
-                SaveDataPlayerMove(currentPlayer, getListCoordinate);
-                // System.Console.WriteLine("oke2");
+            // if (!getDataPlayerMove.ContainsKey(currentPlayer)) // Periksa apakah currentPlayer belum ada dalam kamus
+            // {
+            //     // System.Console.WriteLine("oke");
+            //     SaveDataPlayerMove(currentPlayer, getListCoordinate);
+            //     // System.Console.WriteLine("oke2");
 
-            }
-            else if (getDataPlayerMove.ContainsKey(currentPlayer))
-            {
-                // System.Console.WriteLine("oke3");
-                Coordinate coordinateNew = new(endX, endY);
-                SaveNewCoordinateToDict(currentPlayer, coordinateNew);
-                // System.Console.WriteLine("oke4");
-            }
+            // }
+            // else if (getDataPlayerMove.ContainsKey(currentPlayer))
+            // {
+            //     // System.Console.WriteLine("oke3");
+            //     Coordinate coordinateNew = new(endX, endY);
+            //     SaveNewCoordinateToDict(currentPlayer, coordinateNew);
+            //     // System.Console.WriteLine("oke4");
+            // }
 
             // Console.Clear();
-            foreach (KeyValuePair<IPlayer, List<Coordinate>> item in getDataPlayerMove)
-            {
-                Trace.WriteLine("=============================");
-                var coordinates = item.Value;
-                int numberOfPlayers = getDataPlayerMove.Keys.Count;
-                // System.Console.WriteLine(item);
-                foreach (var kvp in getDataPlayerMove)
-                {
-                    var playerName = kvp.Key.Username.Count();
-                    var moves = kvp.Value;
-                    // Console.WriteLine($"{kvp.Key.Username}: ");
+            // foreach (KeyValuePair<IPlayer, List<Coordinate>> item in getDataPlayerMove)
+            // {
+            //     Trace.WriteLine("=============================");
+            //     var coordinates = item.Value;
+            //     int numberOfPlayers = getDataPlayerMove.Keys.Count;
+            //     // System.Console.WriteLine(item);
+            //     foreach (var kvp in getDataPlayerMove)
+            //     {
+            //         var playerName = kvp.Key.Username.Count();
+            //         var moves = kvp.Value;
+            //         // Console.WriteLine($"{kvp.Key.Username}: ");
 
-                    foreach (var move in moves)
-                    {
-                        // Console.Clear();
-                        Console.WriteLine($"{kvp.Key.Username}: ({move.X}, {move.Y})");
-                        // Console.WriteLine($"({move.X}, {move.Y})");
+            //         foreach (var move in moves)
+            //         {
+            //             // Console.Clear();
+            //             Console.WriteLine($"{kvp.Key.Username}: ({move.X}, {move.Y})");
+            //             // Console.WriteLine($"({move.X}, {move.Y})");
 
-                        // if (kvp.Key.Username == currentPlayer.Username)
-                        // {
-                        //     Console.WriteLine($"({move.X}, {move.Y})");
+            //             // if (kvp.Key.Username == currentPlayer.Username)
+            //             // {
+            //             //     Console.WriteLine($"({move.X}, {move.Y})");
 
-                        // }
+            //             // }
 
-                    }
-                    System.Console.WriteLine();
-                }
-                System.Console.WriteLine("=============================");
-            }
+            //         }
+            //         System.Console.WriteLine();
+            //     }
+            //     System.Console.WriteLine("=============================");
+            // }
 
-            
 
-            while (!currentPlayer.MakeMove(board, startCoord, endCoord))
-            {
-                System.Console.WriteLine("Invalid, try again");
-            }
+
+            // while (!currentPlayer.MakeMove(board, startCoord, endCoord))
+            // {
+            //     System.Console.WriteLine("Invalid, try again");
+            // }
+
 
 
             SwitchPlayer();
@@ -151,7 +166,6 @@ public class GameController
             CheckWinner();
         }
     }
-
     private void SwitchPlayer()
     {
         if (currentPlayer == _player1)

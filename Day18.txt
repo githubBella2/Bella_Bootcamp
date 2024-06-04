@@ -1,0 +1,30 @@
+SOLID
+Single responsibility: contohnya memisah method menjadi per kelas. pada invoice.
+Open close :open for extension,closed for modification 
+            melakukan extention, tidak modif dari code yang sudah ada
+Liskov: inheritance. child class haris bisa menggantkan parent class. 
+        -> parent diganti jd class program gak terpengaruh
+Interface Segregration: membuat interface, dia tidak memiliki fitur yg terlalu luas.
+                        Yang baik adlaah interface sangat detail, dan semua method 
+                        mengimplementasikan semua method
+                        yang ada di interface itu
+Dependency: abstraction, kelas yg complex jangan sampai bergantung ke kelas yg concrete.
+            rely aja ke interface. contoh: GC jangan bergantung ke piece/card tp ke interface saja.
+scalable :bisa diperluas tanpa bynk melakukan perubahan
+maintainable: bisa di baca, dipahami org lain
+
+GC: penghubung UI dan backend
+GC:     pake private.
+        print di kelas UI/program. tidak di GC.
+
+array,list,dll bisa masuk ke IEnumerable
+
+
+
+
+
+
+?gmn bedanya lskov dan S?
+
+
+

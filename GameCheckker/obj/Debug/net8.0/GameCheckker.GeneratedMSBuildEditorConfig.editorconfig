@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GameCheckker
-build_property.ProjectDir = E:\Bootcamp\GameCheckker\
+build_property.ProjectDir = D:\Bella_Bootcamp\GameCheckker\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

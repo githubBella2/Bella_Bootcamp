@@ -1,0 +1,15 @@
+D:\Bella_Bootcamp\Contoh\bin\Debug\net8.0\Contoh.exe
+D:\Bella_Bootcamp\Contoh\bin\Debug\net8.0\Contoh.deps.json
+D:\Bella_Bootcamp\Contoh\bin\Debug\net8.0\Contoh.runtimeconfig.json
+D:\Bella_Bootcamp\Contoh\bin\Debug\net8.0\Contoh.dll
+D:\Bella_Bootcamp\Contoh\bin\Debug\net8.0\Contoh.pdb
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\Contoh.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\Contoh.AssemblyInfoInputs.cache
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\Contoh.AssemblyInfo.cs
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\Contoh.csproj.CoreCompileInputs.cache
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\Contoh.sourcelink.json
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\Contoh.dll
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\refint\Contoh.dll
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\Contoh.pdb
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\Contoh.genruntimeconfig.cache
+D:\Bella_Bootcamp\Contoh\obj\Debug\net8.0\ref\Contoh.dll

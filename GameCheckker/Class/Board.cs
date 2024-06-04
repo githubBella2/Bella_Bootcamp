@@ -10,7 +10,7 @@ public class Board : IBoard
     private IPiece[,] grid;
     // public List<Coordinate> listCoordinateMove;
     // public Dictionary<IPlayer, List<Coordinate>> movePlayer;
-   
+
     public Board()
     {
         #region CATATAN
@@ -86,11 +86,13 @@ public class Board : IBoard
             Console.WriteLine();
         }
     }
+    
     public bool MovePiece(Coordinate start, Coordinate end, PieceType playerType, Player currentPlayer)
     {
-        IPiece  piece = grid[start.X, start.Y];// get piece at the starting position
 
-        int dx = end.X - start.X; 
+        IPiece piece = grid[start.X, start.Y];// get piece at the starting position
+
+        int dx = end.X - start.X;
         int dy = end.Y - start.Y;
 
         //memeriksa apakah gerakan valid
@@ -138,7 +140,7 @@ public class Board : IBoard
                 // }
                 #endregion
                 currentPlayer.AddScore(1);
-               
+
                 return true;
             }
         }
