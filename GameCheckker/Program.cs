@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
+using System.Text;
 using GameCheckker;
 using GameCheckker.Class;
 using GameCheckker.Interface;
@@ -11,28 +12,17 @@ class Program
 
     static void Main(string[] args)
     {
-
-        // System.Console.WriteLine("Enter username for Player 1 (White): ");
-        // string username1 = Console.ReadLine();
-        // System.Console.WriteLine("Enter username for Player 2 (Black): ");
-        // string username2 = Console.ReadLine();
-        //pindah ke GC
-
-        // GameController gameControl = new GameController(username1, username2);
-
-
-
         System.Console.WriteLine("Enter username for Player 1 (White): ");
         string username1 = Console.ReadLine();
         System.Console.WriteLine("Enter username for Player 2 (Black): ");
         string username2 = Console.ReadLine();
         Player _player1 = new Player(username1, PieceType.White);
         Player _player2 = new Player(username2, PieceType.Black);
-        // System.Console.WriteLine($"cp {_player1.Username}");
 
         GameController gameControl = new GameController();
         gameControl.SetPlayerData(_player1, _player2);
-        gameControl.currentPlayer = _player1;
+
+        gameControl.CurrentPlayer = _player1;
 
 
         var printListPlayer = gameControl.PrintListPlayer();
@@ -40,66 +30,101 @@ class Program
         {
             System.Console.WriteLine($"(update) List nama: {people.Username}");
         }
-        // gameControl.SwitchPlayer= SwitchPlayer();
         gameControl.StartGame();
-        System.Console.WriteLine($"{gameControl.currentPlayer.Username} (Player {gameControl.currentPlayer.PieceType}), enter your move:");
-
-        System.Console.WriteLine("Start X:");
-        gameControl.startX = int.Parse(Console.ReadLine());
-
-        System.Console.WriteLine("Start Y:");
-        gameControl.startY = int.Parse(Console.ReadLine());
-
-        System.Console.WriteLine("End X:");
-        gameControl.endX = int.Parse(Console.ReadLine());
-
-        System.Console.WriteLine("End Y:");
-        gameControl.endY = int.Parse(Console.ReadLine());
-
-        gameControl.startCoord = new(gameControl.startX, gameControl.startY);
-        gameControl.endCoord = new(gameControl.endX, gameControl.endY);
-
-        gameControl.SaveListCoordinate(gameControl.startCoord, gameControl.endCoord);
-        var getListCoordinate = gameControl.GetListCoordinate();
-
-        var getDataPlayerMove = gameControl.GetDataPlayerMove();
-        while (!gameControl.currentPlayer.MakeMove(gameControl.board, gameControl.startCoord, gameControl.endCoord))
+        while (gameControl.isRunning)
         {
-            System.Console.WriteLine("Invalid, try again");
+            gameControl.board.DisplayBoard();
+            System.Console.WriteLine($"{gameControl.CurrentPlayer.Username} (Player {gameControl.CurrentPlayer.PieceType}), enter your move:");
+
+            System.Console.WriteLine("Start X:");
+            int startx = int.Parse(Console.ReadLine());
+
+            System.Console.WriteLine("Start Y:");
+            int startY = int.Parse(Console.ReadLine());
+            gameControl.SetStart(startx, startY);
+
+            System.Console.WriteLine("End X:");
+            int endx = int.Parse(Console.ReadLine());
+
+            System.Console.WriteLine("End Y:");
+            int endy = int.Parse(Console.ReadLine());
+            gameControl.SetEnd(endx, endy);
+
+            gameControl.startCoord = new(gameControl.startX, gameControl.startY);
+            gameControl.endCoord = new(gameControl.endX, gameControl.endY);
+
+            // save coordinat ke list
+            gameControl.SaveListCoordinate(gameControl.endCoord);
+            //get coordinate list
+            var getListCoordinate = gameControl.GetListCoordinate();
+            //save to dictionary isinya player dan value listcoord
+            var getDataPlayerMove = gameControl.GetDataPlayerMove();
+
+            if (!getDataPlayerMove.ContainsKey(gameControl.CurrentPlayer)) // Periksa apakah CurrentPlayer belum ada dalam kamus
+            {
+                gameControl.SaveDataPlayerMove(gameControl.CurrentPlayer, new List<Coordinate> { gameControl.endCoord });
+
+            }
+            else if (getDataPlayerMove.ContainsKey(gameControl.CurrentPlayer))
+            {
+                Coordinate coordinateNew = new(endx, endy);
+                gameControl.SaveNewCoordinateToDict(gameControl.CurrentPlayer, coordinateNew);
+            }
+            // print Dictionary moveplayer
+
+            // foreach (var pair in getDataPlayerMove)
+            // {
+            //     var cp = gameControl.CurrentPlayer;
+            //    System.Console.WriteLine($"");
+            //     if (getDataPlayerMove.ContainsKey())
+            //     {
+            //         Console.WriteLine($"Key {keyToPrint} punya:");
+            //         foreach (var tuple in data[keyToPrint])
+            //         {
+            //             Console.WriteLine(tuple);
+            //         }
+            //     }
+            //     else
+            //     {
+            //         Console.WriteLine($"Key {keyToPrint} tidak ditemukan dalam dictionary.");
+            //     }
+
+
+            // }
+            foreach (KeyValuePair<IPlayer, List<Coordinate>> item in getDataPlayerMove)
+            {
+                Console.WriteLine("=============================");
+                var coordinates = item.Value;
+                int numberOfPlayers = getDataPlayerMove.Keys.Count;
+                // System.Console.WriteLine(item);
+                foreach (var kvp in getDataPlayerMove)
+                {
+                    var playerName = kvp.Key.Username.Count();
+                    var moves = kvp.Value;
+                    Console.WriteLine($"{kvp.Key.Username}: ");
+                    StringBuilder teksmove = new StringBuilder();
+                    foreach (var i in moves)
+                    {
+                        teksmove.Append($" ({i.X}, {i.Y}) ");
+                        // Console.WriteLine($" ({i.X}, {i.Y})");
+
+                    }
+                    System.Console.WriteLine(teksmove.ToString());
+                    System.Console.WriteLine();
+                }
+                System.Console.WriteLine("=============================");
+            }
+
+
+            while (!gameControl.CurrentPlayer.MakeMove(gameControl.board, gameControl.startCoord, gameControl.endCoord))
+            {
+                System.Console.WriteLine("Invalid, try again");
+                break;
+            }
+            gameControl.SwitchPlayer(gameControl.CurrentPlayer);
+            gameControl.PrintScore();
+            gameControl.CheckWinner();
         }
-         
-
-
-
-        // foreach (KeyValuePair<IPlayer, List<Coordinate>> item in gameControl.movePlayerDict)
-        // {
-        //     Console.WriteLine("=============================");
-        //     var coordinates = item.Value;
-        //     int numberOfPlayers = gameControl.movePlayerDict.Keys.Count;
-        //     // System.Console.WriteLine(item);
-        //     foreach (var kvp in gameControl.movePlayerDict)
-        //     {
-        //         var playerName = kvp.Key.Username.Count();
-        //         var moves = kvp.Value;
-        //         // Console.WriteLine($"{kvp.Key.Username}: ");
-
-        //         foreach (var move in moves)
-        //         {
-        //             // Console.Clear();
-        //             Console.WriteLine($"{kvp.Key.Username}: ({move.X}, {move.Y})");
-        //             // Console.WriteLine($"({move.X}, {move.Y})");
-
-        //             // if (kvp.Key.Username == currentPlayer.Username)
-        //             // {
-        //             //     Console.WriteLine($"({move.X}, {move.Y})");
-
-        //             // }
-
-        //         }
-        //         System.Console.WriteLine();
-        //     }
-        //     System.Console.WriteLine("=============================");
-        // }
 
     }
 

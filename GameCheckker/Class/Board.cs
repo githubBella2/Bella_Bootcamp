@@ -8,8 +8,6 @@ public class Board : IBoard
 {
     private const int _size = 8;
     private IPiece[,] grid;
-    // public List<Coordinate> listCoordinateMove;
-    // public Dictionary<IPlayer, List<Coordinate>> movePlayer;
 
     public Board()
     {

@@ -5,7 +5,7 @@ namespace GameCheckker.Interface;
 
 public interface IPlayer
 {
-    string Username {get;}
+    public string Username {get;}
     PieceType PieceType {get;}
     bool MakeMove(IBoard board,Coordinate start, Coordinate end);
 }

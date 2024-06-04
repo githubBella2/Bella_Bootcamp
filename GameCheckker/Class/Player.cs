@@ -20,25 +20,6 @@ public class Player : IPlayer
 
     public bool MakeMove(IBoard board, Coordinate start, Coordinate end)
     {
-        // System.Console.WriteLine($"{Username} (Player {PieceType}), enter your move:");
-
-        // System.Console.WriteLine("Start X:");
-        // int startX = int.Parse(Console.ReadLine());
-
-        // System.Console.WriteLine("Start Y:");
-        // int startY = int.Parse(Console.ReadLine());
-
-        // System.Console.WriteLine("End X:");
-        // int endX = int.Parse(Console.ReadLine());
-
-        // System.Console.WriteLine("End Y:");
-        // int endY = int.Parse(Console.ReadLine());
-
-        // Coordinate start = new Coordinate(startX, startY);
-        // Coordinate end = new Coordinate(endX, endY);
-
-
-
         if (board.MovePiece(start, end, PieceType,this))
         {
             return true;
