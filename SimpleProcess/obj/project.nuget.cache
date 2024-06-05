@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mdVy/uj5u4i+cGv41E08yuQtfcIWl1BKix46QN1Uyk0guesaDxVhIvaECCyjlYCs/xhRTGlEkmuM/aigSnckVg==",
+  "success": true,
+  "projectFilePath": "D:\\Bella_Bootcamp\\SimpleProcess\\SimpleProcess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batch 10\\.nuget\\packages\\nlog\\5.3.2\\nlog.5.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}
