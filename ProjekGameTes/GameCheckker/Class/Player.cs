@@ -1,4 +1,6 @@
 using GameCheckker.Interface;
+using NLog;
+using NLog.Config;
 
 namespace GameCheckker.Class;
 
@@ -7,6 +9,8 @@ public class Player : IPlayer
     public string Username { get; private set; }
     public PieceType PieceType { get; private set; }
     public int Score { get; private set; }
+    public static Logger logger = LogManager.GetCurrentClassLogger();
+
     public Player(string username, PieceType pieceType)
     {
         Username = username;
@@ -33,6 +37,8 @@ public class Player : IPlayer
 
     public void AddScore(int poin)
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("New Score");
         Score += poin;
     }
 

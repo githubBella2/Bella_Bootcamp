@@ -1,1 +1,14 @@
 2024-06-05 14:18:52.3455|INFO|GameCheckker.GameController|Game is start
+2024-06-07 14:25:46.9209|INFO|GameCheckker.GameController|Game is start
+2024-06-07 14:25:56.0778|INFO|GameCheckker.GameController|Congrats, you win!
+2024-06-07 14:25:59.2658|INFO|GameCheckker.GameController|Congrats, you win!
+2024-06-07 14:26:23.7910|INFO|GameCheckker.GameController|Game is start
+2024-06-07 14:26:27.5412|INFO|GameCheckker.GameController|Congrats, you win!
+2024-06-07 14:26:31.9822|INFO|GameCheckker.GameController|Congrats, you win!
+2024-06-07 14:26:52.2716|INFO|GameCheckker.GameController|Game is start
+2024-06-07 14:26:55.1140|INFO|GameCheckker.GameController|Congrats, you win!
+2024-06-07 14:26:58.4589|INFO|GameCheckker.GameController|Congrats, you win!
+2024-06-07 14:52:14.4703|INFO|GameCheckker.GameController|Game is start
+2024-06-07 14:52:29.7206|INFO|GameCheckker.GameController|Congrats, you win!
+2024-06-07 14:55:55.8765|INFO|GameCheckker.GameController|Game is start
+2024-06-07 14:56:15.7851|INFO|GameCheckker.Class.Player|New Score

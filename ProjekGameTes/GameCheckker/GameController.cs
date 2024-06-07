@@ -67,9 +67,9 @@ public class GameController
         isRunning = true;
 
     }
-    public void SwitchPlayer(IPlayer player)
+    public void SwitchPlayer()
     {
-        if (CurrentPlayer == player)
+        if (CurrentPlayer == Players[0])
         {
             CurrentPlayer = Players[1];
         }
@@ -106,6 +106,7 @@ public class GameController
 
     public void CheckWinner()
     {
+        
 
         foreach (Player player in Players)
         {

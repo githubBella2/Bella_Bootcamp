@@ -42,7 +42,6 @@ public class GameController
         Players = new List<IPlayer>();
         ListCoordinateMove = new List<Coordinate>();
         movePlayerDict = new Dictionary<IPlayer, List<Coordinate>>();
-
     }
 
     #region UPDATE Method
@@ -62,9 +61,9 @@ public class GameController
         isRunning = true;
 
     }
-    public void SwitchPlayer(IPlayer player)
+    public void SwitchPlayer()
     {
-        if (CurrentPlayer == player)
+        if (CurrentPlayer == Players[0])
         {
             CurrentPlayer = Players[1];
         }

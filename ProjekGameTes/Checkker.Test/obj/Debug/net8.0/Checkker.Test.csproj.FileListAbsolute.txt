@@ -104,3 +104,16 @@ D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\obj\Debug\net8.0\refint\Checkker.T
 D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\obj\Debug\net8.0\Checkker.Test.pdb
 D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\obj\Debug\net8.0\Checkker.Test.genruntimeconfig.cache
 D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\obj\Debug\net8.0\ref\Checkker.Test.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Bella_Bootcamp\ProjekGameTes\Checkker.Test\bin\Debug\net8.0\NLog.dll

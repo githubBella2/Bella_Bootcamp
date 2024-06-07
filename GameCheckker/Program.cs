@@ -121,7 +121,7 @@ class Program
                 System.Console.WriteLine("Invalid, try again");
                 break;
             }
-            gameControl.SwitchPlayer(gameControl.CurrentPlayer);
+            gameControl.SwitchPlayer();
             gameControl.PrintScore();
             gameControl.CheckWinner();
         }

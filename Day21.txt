@@ -1,0 +1,5 @@
+
+Presentasi design pattern, penjelasan dan contoh code
+codenya misalnya case sebelum design patern dan sesudah design pattern
+COMPOSITE
+game->nlog

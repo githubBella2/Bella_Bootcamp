@@ -22,7 +22,7 @@ public class Tests
         _gc.CurrentPlayer=user1;
 
         // action
-        _gc.SwitchPlayer(user1);
+        _gc.SwitchPlayer();
         var result = _gc.CurrentPlayer.Username;
 
         // ASSERT
