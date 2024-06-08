@@ -8,7 +8,7 @@ public class Player : IPlayer
 {
     public string Username { get; private set; }
     public PieceType PieceType { get; private set; }
-    public int Score { get; private set; }
+    public int Score { get;  set; }
     public static Logger logger = LogManager.GetCurrentClassLogger();
 
     public Player(string username, PieceType pieceType)

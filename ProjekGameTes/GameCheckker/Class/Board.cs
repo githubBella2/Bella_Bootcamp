@@ -19,8 +19,9 @@ public class Board : IBoard
         #endregion
         grid = new IPiece[_size, _size];
         InitBoard();
+        
     }
-    private void InitBoard()
+    public void InitBoard()
     {
         for (int y = 0; y < _size; y++)
         {
@@ -84,7 +85,7 @@ public class Board : IBoard
             Console.WriteLine();
         }
     }
-    
+
     public bool MovePiece(Coordinate start, Coordinate end, PieceType playerType, Player currentPlayer)
     {
 

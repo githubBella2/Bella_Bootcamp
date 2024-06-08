@@ -8,4 +8,5 @@ public interface IPlayer
     public string Username {get;}
     PieceType PieceType {get;}
     bool MakeMove(IBoard board,Coordinate start, Coordinate end);
+    // bool MakeMove(Coordinate start, Coordinate end);
 }

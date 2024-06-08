@@ -1867,32 +1867,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Batch 10\\.nuget\\packages\\": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bella_Bootcamp\\ProjekGameTes\\Checkker.Test\\Checkker.Test.csproj",
+      "projectUniqueName": "E:\\Bootcamp\\ProjekGameTes\\Checkker.Test\\Checkker.Test.csproj",
       "projectName": "Checkker.Test",
-      "projectPath": "D:\\Bella_Bootcamp\\ProjekGameTes\\Checkker.Test\\Checkker.Test.csproj",
-      "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-      "outputPath": "D:\\Bella_Bootcamp\\ProjekGameTes\\Checkker.Test\\obj\\",
+      "projectPath": "E:\\Bootcamp\\ProjekGameTes\\Checkker.Test\\Checkker.Test.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "E:\\Bootcamp\\ProjekGameTes\\Checkker.Test\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Bella_Bootcamp\\ProjekGameTes\\GameCheckker\\GameCheckker.csproj": {
-              "projectPath": "D:\\Bella_Bootcamp\\ProjekGameTes\\GameCheckker\\GameCheckker.csproj"
+            "E:\\Bootcamp\\ProjekGameTes\\GameCheckker\\GameCheckker.csproj": {
+              "projectPath": "E:\\Bootcamp\\ProjekGameTes\\GameCheckker\\GameCheckker.csproj"
             }
           }
         }

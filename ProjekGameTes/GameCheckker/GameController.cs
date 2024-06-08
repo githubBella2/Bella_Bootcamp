@@ -23,7 +23,7 @@ public class GameController
     public int startY = 0;
     public int endX = 0;
     public int endY = 0;
-
+    public int scorePlayer;
     public void SetStart(int x, int y)
     {
         startX = x;
@@ -38,6 +38,8 @@ public class GameController
     public Coordinate endCoord;
     private int maxScoreToWin = 3;
 
+
+
     public GameController()
     {
         board = new Board();
@@ -50,6 +52,8 @@ public class GameController
     #region UPDATE Method
     public List<IPlayer> PrintListPlayer()
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Log Player");
         return Players;
     }
     #endregion
@@ -69,6 +73,8 @@ public class GameController
     }
     public void SwitchPlayer()
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Time to switch player");
         if (CurrentPlayer == Players[0])
         {
             CurrentPlayer = Players[1];
@@ -76,7 +82,6 @@ public class GameController
         else
         {
             CurrentPlayer = Players[0];
-
         }
 
     }
@@ -84,6 +89,8 @@ public class GameController
 
     public void SetPlayerData(IPlayer user1, IPlayer user2)
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Log Set Player");
         Players.Add(user1);
         Players.Add(user2);
     }
@@ -94,10 +101,14 @@ public class GameController
     }
     public List<IPlayer> GetPlayerData()
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Log Get Player");
         return this.Players;
     }
     public void PrintScore()
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Log Print Score Player");
         foreach (Player player in Players)
         {
             System.Console.WriteLine($"Score {player.Username}= {player.Score} ");
@@ -106,12 +117,13 @@ public class GameController
 
     public void CheckWinner()
     {
-        
-
         foreach (Player player in Players)
         {
+            scorePlayer = player.Score;
             if (player.Score >= maxScoreToWin)
             {
+                LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+                logger.Info("This is log Winner");
                 Console.WriteLine($"Player {player.Username} wins! with score = {player.Score}");
                 isRunning = false;
                 break; // Keluar dari loop foreach setelah menemukan pemenang
@@ -121,27 +133,37 @@ public class GameController
     #region METHOD LIST-DITCIONARY
     public void SaveListCoordinate(Coordinate end)
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Log Saving list Coordinater");
         ListCoordinateMove.Add(end);
         // ListCoordinateMove.Add(y);
     }
 
     public List<Coordinate> GetListCoordinate()
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Log Get List Coordinate");
         return ListCoordinateMove;
     }
 
     public void SaveDataPlayerMove(IPlayer player, List<Coordinate> coordinates)
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Log saving data move player");
         movePlayerDict.Add(player, coordinates);
     }
 
     public Dictionary<IPlayer, List<Coordinate>> GetDataPlayerMove()
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Log Data Player");
         return movePlayerDict;
     }
 
     public void SaveNewCoordinateToDict(IPlayer player, Coordinate coordinate)
     {
+        LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
+        logger.Info("Log Saving new coordinate");
         this.movePlayerDict[player].Add(coordinate);
     }
     #endregion

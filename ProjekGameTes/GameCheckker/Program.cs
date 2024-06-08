@@ -9,7 +9,6 @@ class Program
 {
     public IBoard board = new Board();
 
-
     static void Main(string[] args)
     {
         System.Console.WriteLine("Enter username for Player 1 (White): ");
@@ -30,10 +29,14 @@ class Program
         {
             System.Console.WriteLine($"(update) List nama: {people.Username}");
         }
+
+
         gameControl.StartGame();
         while (gameControl.isRunning)
         {
             gameControl.board.DisplayBoard();
+
+            // START GAME, INPUT COORD
             System.Console.WriteLine($"{gameControl.CurrentPlayer.Username} (Player {gameControl.CurrentPlayer.PieceType}), enter your move:");
 
             System.Console.WriteLine("Start X:");
@@ -70,27 +73,7 @@ class Program
                 Coordinate coordinateNew = new(endx, endy);
                 gameControl.SaveNewCoordinateToDict(gameControl.CurrentPlayer, coordinateNew);
             }
-            // print Dictionary moveplayer
-
-            // foreach (var pair in getDataPlayerMove)
-            // {
-            //     var cp = gameControl.CurrentPlayer;
-            //    System.Console.WriteLine($"");
-            //     if (getDataPlayerMove.ContainsKey())
-            //     {
-            //         Console.WriteLine($"Key {keyToPrint} punya:");
-            //         foreach (var tuple in data[keyToPrint])
-            //         {
-            //             Console.WriteLine(tuple);
-            //         }
-            //     }
-            //     else
-            //     {
-            //         Console.WriteLine($"Key {keyToPrint} tidak ditemukan dalam dictionary.");
-            //     }
-
-
-            // }
+            // PRINT DATA MOVE
             foreach (KeyValuePair<IPlayer, List<Coordinate>> item in getDataPlayerMove)
             {
                 Console.WriteLine("=============================");
