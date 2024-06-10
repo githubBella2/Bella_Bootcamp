@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bella_Bootcamp\\ProjekGameTes\\GameCheckker\\GameCheckker.csproj": {}
+    "D:\\Bella_Bootcamp\\Singleton\\Singleton.csproj": {}
   },
   "projects": {
-    "D:\\Bella_Bootcamp\\ProjekGameTes\\GameCheckker\\GameCheckker.csproj": {
+    "D:\\Bella_Bootcamp\\Singleton\\Singleton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bella_Bootcamp\\ProjekGameTes\\GameCheckker\\GameCheckker.csproj",
-        "projectName": "GameCheckker",
-        "projectPath": "D:\\Bella_Bootcamp\\ProjekGameTes\\GameCheckker\\GameCheckker.csproj",
+        "projectUniqueName": "D:\\Bella_Bootcamp\\Singleton\\Singleton.csproj",
+        "projectName": "Singleton",
+        "projectPath": "D:\\Bella_Bootcamp\\Singleton\\Singleton.csproj",
         "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-        "outputPath": "D:\\Bella_Bootcamp\\ProjekGameTes\\GameCheckker\\obj\\",
+        "outputPath": "D:\\Bella_Bootcamp\\Singleton\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,20 +42,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.Extensions.Logging.Console": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "NLog": {
-              "target": "Package",
-              "version": "[5.3.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

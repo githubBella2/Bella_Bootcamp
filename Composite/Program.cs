@@ -24,7 +24,7 @@ class Program
         drawing.Draw("blue");
 
         // Remove a shape from the composite drawing
-        rawing.Remove(circle);d
+        drawing.Remove(circle);
 
         // Draw the composite drawing again
         drawing.Draw("purple");

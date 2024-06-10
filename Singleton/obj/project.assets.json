@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bella_Bootcamp\\Composite\\Composite.csproj",
-      "projectName": "Composite",
-      "projectPath": "D:\\Bella_Bootcamp\\Composite\\Composite.csproj",
+      "projectUniqueName": "D:\\Bella_Bootcamp\\Singleton\\Singleton.csproj",
+      "projectName": "Singleton",
+      "projectPath": "D:\\Bella_Bootcamp\\Singleton\\Singleton.csproj",
       "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-      "outputPath": "D:\\Bella_Bootcamp\\Composite\\obj\\",
+      "outputPath": "D:\\Bella_Bootcamp\\Singleton\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
