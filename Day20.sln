@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{07E653DB-A647-474D-A188-6A24C29721F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewEF", "NewEF\NewEF.csproj", "{C848D507-84FC-42BA-BA3F-D3644E5961FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{07E653DB-A647-474D-A188-6A24C29721F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07E653DB-A647-474D-A188-6A24C29721F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07E653DB-A647-474D-A188-6A24C29721F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C848D507-84FC-42BA-BA3F-D3644E5961FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C848D507-84FC-42BA-BA3F-D3644E5961FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C848D507-84FC-42BA-BA3F-D3644E5961FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C848D507-84FC-42BA-BA3F-D3644E5961FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
