@@ -1,10 +1,11 @@
 ﻿using EntityFramework;
 using Microsoft.EntityFrameworkCore;
 
-class Program
+class Progra
 {
     static void Main(string[] args)
     {
+        // READ ALL
         using (Northwind db = new())
         {
             bool status = db.Database.CanConnect();
@@ -16,13 +17,13 @@ class Program
                 System.Console.WriteLine($"Category id: {cat.CategoryID} | Category name: {cat.CategoryName} | Category description: {cat.Description}");
             }
 
-            Category? category1 = db.Categories.Find(4);
-            Category category2 = db.Categories.Where(c => c.CategoryID == 1).FirstOrDefault();
-            Category searchSeafood = db.Categories.Where(c => c.CategoryName == "Seafood").FirstOrDefault();
+            // Category? category1 = db.Categories.Find(4);
+            // Category category2 = db.Categories.Where(c => c.CategoryID == 1).FirstOrDefault();
+            // Category searchSeafood = db.Categories.Where(c => c.CategoryName == "Seafood").FirstOrDefault();
 
-            System.Console.WriteLine($"dd: {category2.CategoryName}");
-            System.Console.WriteLine($"dd1: {category1.CategoryName}");
-            System.Console.WriteLine($"dd2: {searchSeafood.CategoryName}");
+            // System.Console.WriteLine($"dd: {category2.CategoryName}");
+            // System.Console.WriteLine($"dd1: {category1.CategoryName}");
+            // System.Console.WriteLine($"dd2: {searchSeafood.CategoryName}");
 
 
             // BIKIN KATEGORI BARU
@@ -67,20 +68,28 @@ class Program
             // }
 
 
-            Product catAtProduct = db.Products.Where(p => p.CategoryID == 17).FirstOrDefault();
-            if (catAtProduct != null)
-            {
+            // Product catAtProduct = db.Products.Where(p => p.CategoryID == 17).FirstOrDefault();
+            // if (catAtProduct != null)
+            // {
 
+            // }
+
+        }
+
+        // READ FILTER
+        using (Northwind db = new())
+        {
+            string filter = "Seafood";
+            Category? returnData = db.Categories.Where(data => data.CategoryName == filter).FirstOrDefault();
+            System.Console.WriteLine(returnData.Description);
+        }
+        using (Northwind db = new())
+        {
+            string filter = "Seafood";
+            IQueryable<Category>? returnData = db.Categories.Where(data => data.CategoryName == filter);
+            foreach(var category in returnData){
+                System.Console.WriteLine(category);
             }
-
-
-
-
-
-
-
-
-
         }
     }
 }
