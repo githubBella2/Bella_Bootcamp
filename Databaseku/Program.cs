@@ -6,18 +6,20 @@ class Program
     static void Main(string[] args)
     {
         #region CREATE
-        // using (Database db = new())
-        // {
+        using (Database db = new())
+        {
         // bool status = db.Database.CanConnect();
         // System.Console.WriteLine(status);
 
         // Doctor doctor1 = new();
         // doctor1.FullName = "Dr. Cha";
         // doctor1.Specialist = "Bedah Ortopedi";
+        
 
         // Doctor doctor2 = new();
         // doctor2.FullName = "Dr. Hayes Clarin";
         // doctor2.Specialist = "Anti Aging";
+       
         // db.Doctors.AddRange(doctor1, doctor2); // jika punya collection/array/data banyak. Bs langsung add seluruh datanya.
         // db.SaveChanges();
 
@@ -102,7 +104,7 @@ class Program
 
 
 
-        // }
+        }
         #endregion
 
 
@@ -120,10 +122,10 @@ class Program
         {
             int idDoc = 1;
             int idPat = 1;
-            IQueryable<Chat> returnChat = db.Chat.Where(data=>data.DoctorID == idDoc & data.PatientID==idPat);
+            IQueryable<Chat> returnChat = db.Chat.Where(data => data.DoctorID == idDoc & data.PatientID == idPat);
             Doctor doctor = db.Doctors.Find(idDoc);
             Patient patient = db.Patients.Find(idPat);
-            
+
             System.Console.WriteLine($"Chat between:  {doctor.FullName} - {patient.Name}");
             foreach (var chat in returnChat)
             {
@@ -133,10 +135,10 @@ class Program
 
             int idDoc2 = 2;
             int idPat2 = 2;
-            IQueryable<Chat> returnChat2 = db.Chat.Where(data=>data.DoctorID == idDoc2 & data.PatientID==idPat2);
+            IQueryable<Chat> returnChat2 = db.Chat.Where(data => data.DoctorID == idDoc2 & data.PatientID == idPat2);
             Doctor doctor2 = db.Doctors.Find(idDoc2);
             Patient patient2 = db.Patients.Find(idPat2);
-            
+
             System.Console.WriteLine($"Chat between:  {doctor2.FullName} - {patient2.Name}");
             foreach (var chat in returnChat2)
             {
@@ -145,5 +147,36 @@ class Program
             System.Console.WriteLine("==========");
         }
         #endregion
+
+
+        #region MOVE VALUE DB
+        // using (Database db = new())
+        // {
+        //     IQueryable<string> specialist = db.Doctors.Select(doc => doc.Specialist).Distinct();
+        //     foreach (string sp in specialist)
+        //     {
+        //         Specialist spec = new()
+        //         {
+        //             Name = sp
+        //         };
+        //         db.Specialist.Add(spec);
+        //     }
+        //     db.SaveChanges();
+
+
+        // }
+        #endregion
+    
+    #region UPDATE
+     using (Database db = new())
+        {
+                        // ==FILTER BY ID==
+            // Doctor doctor = db.Doctors.Find(1);
+            // doctor.SpecialistID = 1;
+            Doctor doctor = db.Doctors.Find(2);
+            doctor.SpecialistID = 2;
+            db.SaveChanges();
+        }
+    #endregion
     }
 }

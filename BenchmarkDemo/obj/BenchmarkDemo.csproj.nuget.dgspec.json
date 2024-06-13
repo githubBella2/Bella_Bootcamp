@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bella_Bootcamp\\BenchmarkDemo\\BenchmarkDemo.csproj": {}
+    "E:\\Bootcamp\\BenchmarkDemo\\BenchmarkDemo.csproj": {}
   },
   "projects": {
-    "D:\\Bella_Bootcamp\\BenchmarkDemo\\BenchmarkDemo.csproj": {
+    "E:\\Bootcamp\\BenchmarkDemo\\BenchmarkDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bella_Bootcamp\\BenchmarkDemo\\BenchmarkDemo.csproj",
+        "projectUniqueName": "E:\\Bootcamp\\BenchmarkDemo\\BenchmarkDemo.csproj",
         "projectName": "BenchmarkDemo",
-        "projectPath": "D:\\Bella_Bootcamp\\BenchmarkDemo\\BenchmarkDemo.csproj",
-        "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-        "outputPath": "D:\\Bella_Bootcamp\\BenchmarkDemo\\obj\\",
+        "projectPath": "E:\\Bootcamp\\BenchmarkDemo\\BenchmarkDemo.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Bootcamp\\BenchmarkDemo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

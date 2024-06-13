@@ -8,7 +8,7 @@ public class Database : DbContext
     public DbSet<Doctor> Doctors { get; set; }
     public DbSet<Patient> Patients { get; set; }
     public DbSet<Chat> Chat { get; set; }
-    // public DbSet<Specialist> Specialists { get; set; }
+    public DbSet<Specialist> Specialist { get; set; }
     // public DbSet<DoctorPatient> DoctorPatients{get;set;}
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -27,6 +27,7 @@ public class Database : DbContext
         {
             pat.HasKey(p => p.PatientID);
         });
+        
         modelBuilder.Entity<Chat>(ch =>
         {
             ch.HasKey(c => c.ChatID);

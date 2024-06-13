@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer(); //cari endpoin
 builder.Services.AddSwaggerGen();
-builder.Services.AddControllers();
+builder.Services.AddControllers(); 
 builder.Services.AddDbContext<Database>(opt =>
 {
     opt.UseSqlite("Data Source=./database.db"); //siapapun class yg butuh databse, kasih ini.

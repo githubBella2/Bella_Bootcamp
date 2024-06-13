@@ -1187,19 +1187,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Batch 10\\.nuget\\packages\\": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bella_Bootcamp\\NewEF2\\NewEF2.csproj",
+      "projectUniqueName": "E:\\Bootcamp\\NewEF2\\NewEF2.csproj",
       "projectName": "NewEF2",
-      "projectPath": "D:\\Bella_Bootcamp\\NewEF2\\NewEF2.csproj",
-      "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-      "outputPath": "D:\\Bella_Bootcamp\\NewEF2\\obj\\",
+      "projectPath": "E:\\Bootcamp\\NewEF2\\NewEF2.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "E:\\Bootcamp\\NewEF2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
