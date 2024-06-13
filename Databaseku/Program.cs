@@ -143,7 +143,6 @@ class Program
                 System.Console.WriteLine(chat.Message);
             }
             System.Console.WriteLine("==========");
-
         }
         #endregion
     }

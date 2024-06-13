@@ -1,0 +1,5 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 3 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true in D:\Bella_Bootcamp\BenchmarkDemo\bin\Release\net8.0\538a6e68-c2af-478f-b064-2003ab9d2b47

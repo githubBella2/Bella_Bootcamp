@@ -9,6 +9,7 @@ public class Database : DbContext
     public DbSet<Patient> Patients { get; set; }
     public DbSet<Chat> Chat { get; set; }
     // public DbSet<Specialist> Specialists { get; set; }
+    // public DbSet<DoctorPatient> DoctorPatients{get;set;}
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -36,6 +37,11 @@ public class Database : DbContext
         // {
         //     spec.HasKey(sp => sp.SpecialistID);
         //     spec.HasMany(sp=>sp.Doctors).WithOne(dc=>dc.Specialist);
+        // });
+
+        // modelBuilder.Entity<DoctorPatient>(dp =>{
+        //     dp.HasKey(x=> new {x.DoctorID,x.PatientID});
+        //     dp.Property(x=>x.MedicalRecord).HasColumnType("TEXT");
         // });
     }
 }

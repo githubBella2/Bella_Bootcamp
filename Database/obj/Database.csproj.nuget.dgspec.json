@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Bootcamp\\Database\\Database.csproj": {}
+    "D:\\Bella_Bootcamp\\Database\\Database.csproj": {}
   },
   "projects": {
-    "E:\\Bootcamp\\Database\\Database.csproj": {
+    "D:\\Bella_Bootcamp\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Bootcamp\\Database\\Database.csproj",
+        "projectUniqueName": "D:\\Bella_Bootcamp\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "E:\\Bootcamp\\Database\\Database.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\Bootcamp\\Database\\obj\\",
+        "projectPath": "D:\\Bella_Bootcamp\\Database\\Database.csproj",
+        "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
+        "outputPath": "D:\\Bella_Bootcamp\\Database\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
