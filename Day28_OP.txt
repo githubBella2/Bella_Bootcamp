@@ -1,0 +1,6 @@
+kalo ada issue, 
+bikin issue di catat aja.list kerusakan/error.
+tombol gede yang nutuupin -> issue
+
+ambil aja assignee nya.  meskipun kayaknya bisa. 
+nanti assignee bisa dihapus kalau tidak bisa.
