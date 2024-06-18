@@ -256,3 +256,6 @@ E:\Bootcamp\MyWebAPI\obj\Debug\net8.0\refint\MyWebAPI.dll
 E:\Bootcamp\MyWebAPI\obj\Debug\net8.0\MyWebAPI.pdb
 E:\Bootcamp\MyWebAPI\obj\Debug\net8.0\MyWebAPI.genruntimeconfig.cache
 E:\Bootcamp\MyWebAPI\obj\Debug\net8.0\ref\MyWebAPI.dll
+E:\Bootcamp\MyWebAPI\bin\Debug\net8.0\Npgsql.dll
+E:\Bootcamp\MyWebAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Bootcamp\MyWebAPI\bin\Debug\net8.0\AutoMapper.dll

@@ -1,4 +1,6 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using MyWebAPI.MyMappers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +11,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers(); 
 builder.Services.AddDbContext<Database>(opt =>
 {
-    opt.UseSqlite("Data Source=./database.db"); //siapapun class yg butuh databse, kasih ini.
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+    // opt.useHost=localhost;Port=5432;Database=Yourdatabase;Username=postgres;Password=password
+    // opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")); //siapapun class yg butuh databse, kasih ini.
 });
+builder.Services.AddAutoMapper(typeof(MyMapper));
 
 var app = builder.Build();
 

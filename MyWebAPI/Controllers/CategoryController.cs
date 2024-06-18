@@ -1,4 +1,5 @@
 
+using AutoMapper;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using MyWebAPI.DTOS;
@@ -12,9 +13,11 @@ namespace MyWebAPI.Controllers;
 public class CategoryController : ControllerBase
 {
     private readonly Database _db;
-    public CategoryController(Database db)
+    private readonly IMapper _map;
+    public CategoryController(Database db, IMapper map)
     {
         _db = db;
+        _map = map;
     }
 
 
@@ -37,12 +40,19 @@ public class CategoryController : ControllerBase
     [HttpPost]
     public IActionResult CreateCategoryDTO(CategoryDTO category) //menambahkan kategori baru
     {
-        Category categoryNew = new()
-        {
-            CategoryName = category.CategoryName,
-            Description=category.Description
-        };
-        _db.Categories.Add(categoryNew);
+        // Category categoryNew = new()
+        // {
+        //     CategoryName = category.CategoryName,
+        //     Description = category.Description
+        // };
+
+        #region AUTO MAPPER
+        Category category1 = _map.Map<Category>(category);
+        // IEnumerable<Category>cat = _map.Map<IEnumerable<Category>>(collectionOfCategoryDTO); // 
+        #endregion
+
+        _db.Categories.Add(category1);
+        // _db.Categories.Add(categoryNew);
         _db.SaveChanges();
         return Ok();
     }
